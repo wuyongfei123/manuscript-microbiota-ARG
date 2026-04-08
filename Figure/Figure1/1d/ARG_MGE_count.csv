@@ -1,0 +1,427 @@
+ARG type,ARG_Count,MGE_Count
+23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A),28,0
+AAC(3)-IIc,47,7
+AAC(3)-IVa,240,307
+AAC(3)-VIIa,8,3
+AAC(6')-IIa,318,59
+AAC(6')-Ia,30,1
+AAC(6')-Iaj,1,0
+AAC(6')-Ib',2,0
+AAC(6')-Ib-cr3,6,2
+AAC(6')-Ib-cr6,69,29
+AAC(6')-Ib7,9,0
+AAC(6')-Ib8,52,36
+AAC(6')-Ib9,66,11
+AAC(6')-Ie-APH(2'')-Ia bifunctional protein,768,58
+AAC(6')-Ii,96,0
+AAC(6')-Iid,10,0
+AAC(6')-Il,6,1
+AAC(6')-Im,540,0
+AAC(6')-Iy,12,0
+ACI-1,69,0
+ACT-56,2,0
+ACT-77,3,0
+ADC-43,6,0
+ANT(2'')-Ia,261,105
+ANT(3'')-IIa,18,1
+ANT(3'')-IIb,18,23
+ANT(4')-Ia,203,52
+ANT(4')-Ib,1,0
+ANT(6)-Ia,288,32
+ANT(6)-Ib,638,1
+ANT(9)-Ia,101,28
+ANT(9)-Ib,18,3
+APH(2'')-IIIa,2,2
+APH(2'')-IIa,25,0
+APH(2'')-Ie,7,1
+APH(2'')-If,402,2
+APH(2'')-Ig,174,0
+APH(3'')-Ib,856,171
+APH(3')-IIIa,969,58
+APH(3')-IIa,74,118
+APH(3')-Ia,603,242
+APH(3')-Ib,1,0
+APH(3')-VIIa,12,0
+APH(3')-VIa,58,22
+APH(4)-Ia,127,256
+APH(6)-Ic,11,0
+APH(6)-Id,772,245
+Acinetobacter baumannii AbaQ,11,0
+Acinetobacter baumannii AmvA,6,0
+AcrE,239,0
+AcrS,269,0
+ArnT,352,0
+BLMT,12,0
+BRO-2,1,0
+BRP(MBL),14,14
+BcI,4,0
+BcIII,1,0
+Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin,64,0
+CARB-3,30,2
+CARB-4,1,0
+CARB-8,2,0
+CARB-9,2,0
+CDD-2,1,0
+CMH-4,1,0
+CMY-59,2,4
+CTX-M-55,186,111
+CTX-M-65,64,50
+Campylobacter coli chloramphenicol acetyltransferase,768,1
+Campylobacter jejuni gyrA conferring resistance to fluoroquinolones,139,0
+CblA-1,36,0
+CcrA,7,1
+CfxA6,44,8
+Clostridioides difficile gyrB conferring resistance to fluoroquinolones,19,0
+Clostridium perfringens mprF,81,0
+Corynebacterium striatum tetA,5,0
+CrcB,20,0
+DHA-1,4,0
+DfrA37,27,0
+DfrB9,7,0
+EBR-5,2,0
+EC-14,34,0
+EC-15,121,0
+EreA,13,10
+EreD,579,6
+Erm(34),1,0
+Erm(35),568,8
+Erm(36),63,0
+Erm(42),21,4
+Erm(48),2,0
+Erm(49),55,0
+Erm(51),27,0
+Erm(52),658,0
+ErmA,661,120
+ErmB,851,96
+ErmC,63,33
+ErmF,437,76
+ErmG,521,4
+ErmQ,309,0
+ErmT,127,5
+ErmX,257,20
+ErmY,22,0
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",286,0
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,299,0
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,445,0
+Escherichia coli acrA,227,0
+Escherichia coli ampC beta-lactamase,12,0
+Escherichia coli emrE,238,4
+Escherichia coli mdfA,202,0
+Escherichia coli parE conferring resistance to fluoroquinolones,1,0
+Escherichia coli soxR with mutation conferring antibiotic resistance,368,0
+Escherichia coli soxS with mutation conferring antibiotic resistance,372,0
+EstT,318,27
+FosA2,9,0
+FosA3,66,10
+FosA7.5,16,0
+FosA8,27,3
+FosB3,294,231
+FosBx1,71,11
+FosD,24,7
+FosG,1,0
+FosI,135,7
+FosK,2,0
+FosXCC,921,10
+FusF,2,0
+H-NS,294,9
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,547,0
+HelR,2,0
+Helicobacter pylori rpoB mutation conferring resistance to rifampicin,112,0
+ICR-Mo,2,0
+Klebsiella pneumoniae KpnE,302,0
+Klebsiella pneumoniae KpnF,319,0
+Klebsiella pneumoniae KpnG,22,0
+Klebsiella pneumoniae KpnH,87,0
+Klebsiella pneumoniae OmpK37,24,0
+Limosilactobacillus reuteri cat-TC,6,1
+LlmA 23S ribosomal RNA methyltransferase,9,0
+LnuH,118,1
+LnuP,444,0
+LptD,25,0
+MCR-1.1,16,2
+Mef(En2),839,4
+Morganella morganii gyrB conferring resistance to fluoroquinolones,21,0
+Mrx,60,44
+Mycobacterium tuberculosis folC with mutation conferring resistance to para-aminosalicylic acid,43,0
+Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin,2,0
+Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin,56,0
+NDM-5,11,17
+Neisseria gonorrhoeae gyrA conferring resistance to fluoroquinolones,1,0
+OXA-1,72,23
+OXA-10,146,69
+OXA-136,92,0
+OXA-140,8,1
+OXA-184,5,0
+OXA-193,1,0
+OXA-21,35,3
+OXA-334,1,0
+OXA-347,534,41
+OXA-58,4,3
+OXA-820,5,0
+OXA-912,3,0
+OmpA,25,0
+PC1 beta-lactamase (blaZ),1,0
+PmrF,232,0
+QnrA3,1,2
+QnrB6,14,17
+QnrD1,18,0
+QnrS1,209,859
+QnrVC5,2,0
+RCP-1,2,0
+RanA,48,0
+RanB,56,0
+RbpA,10,0
+Rhodobacter sphaeroides ampC beta-lactamase,18,1
+SAT-2,11,7
+SAT-4,747,12
+SHV-11,17,0
+Sed-1,1,0
+Staphylococcus intermedius chloramphenicol acetyltransferase,15,6
+Streptococcus suis chloramphenicol acetyltransferase,491,73
+Streptomyces rimosus otr(A),37,0
+Streptomyces venezuelae rox,7,0
+TEM-1,388,439
+TRU-1,2,0
+TolC,208,0
+VEB-17,54,5
+Vibrio anguillarum chloramphenicol acetyltransferase,1528,9
+Vibrio cholerae varG,3,0
+YojI,141,0
+aad(6),328,24
+aadA11,4,0
+aadA15,5,7
+aadA16,93,30
+aadA17,3,1
+aadA2,239,126
+aadA27,2,0
+aadA5,234,154
+aadA7,10,1
+aadA9,51,2
+aadK,6,0
+aadS,382,6
+abeS,9,9
+acrB,185,0
+acrD,163,5
+adeF,16012,20
+adeL,1,0
+almE,2,0
+almF,4,0
+almG,3,0
+aphA15,5,0
+apmA,31,0
+armA,2,1
+arr-2,191,78
+arr-3,313,109
+arr-8,1,0
+bacA,269,2
+baeR,252,0
+baeS,4,0
+catA4,23,0
+catA8,455,541
+catB11,2,0
+catB2,4,0
+catB3,151,39
+catB8,29,2
+catII from Escherichia coli K-12,31,27
+catIII,43,0
+catP,441,0
+catQ,159,0
+catS,51,0
+cepA,24,0
+cfr(D),20,9
+cfrA,521,550
+cfrC,61,3
+cfrE,1221,1
+clbC,1,0
+clcD,56,9
+cmeR,23,0
+cmlA5,174,80
+cphA3,3,0
+cpxA,227,5
+dfrA1,131,13
+dfrA10,2,3
+dfrA12,131,80
+dfrA14,252,180
+dfrA15,22,0
+dfrA16,48,0
+dfrA17,263,144
+dfrA19,8,3
+dfrA20,2,0
+dfrA27,234,41
+dfrA6 from Proteus mirabilis,3,0
+dfrD,7,0
+dfrE,16,0
+dfrF,154,14
+dfrG,272,2
+dfrL,1,0
+efmA,66,1
+efrA,14,0
+emrA,226,0
+emrK,212,1
+emrR,341,0
+emrY,180,2
+emtA,1,1
+eptA,231,0
+eptB,25,0
+erm(45),10,0
+evgA,213,1
+evgS,141,0
+fexA,910,337
+fexB,291,80
+fosA5,15,0
+fusC,1,0
+fusD,1,0
+gadX,305,0
+golS,16,0
+kdpE,236,2
+leuO,334,1
+linG,27,13
+lnuA,366,44
+lnuB,563,4
+lnuC,1911,15
+lnuD,24,0
+lnuE,7,0
+lnuF,7,9
+lnuG,77,16
+lsaE,550,6
+marA,286,0
+mdeA,40,0
+mdtA,170,0
+mdtB,80,0
+mdtC,105,0
+mdtE,262,0
+mdtF,199,0
+mdtG,192,0
+mdtH,163,0
+mdtM,162,1
+mdtN,214,0
+mdtO,188,0
+mdtP,210,0
+mecA,6,3
+mecB,2,0
+mecI,9,0
+mecR1,6,3
+mefF,38,0
+mefH,874,27
+mphA,67,43
+mphC,13,1
+mphE,56,8
+mphF,9,0
+mphG,14,0
+mphK,5,0
+mphO,27,0
+msbA,234,0
+msr(G),35,0
+msr(I),1,0
+msrA,9,1
+nimA,5167,3
+nimB,101,2
+nimC,6,0
+nimD,8,0
+nimE,213,0
+nimF,233,0
+nimG,2804,0
+nimH,29,0
+nimI,543,0
+nimJ,2812,24
+nimK,453,0
+norC,22,0
+npmA,285,4
+oqxA,58,19
+patB,48,0
+poxtA,5133,19
+qacEdelta1,545,816
+qacG,3340,46
+qacJ,2264,27
+qacL,99,151
+ramA,4,0
+rgt1438,2,0
+rmtB,18,13
+rsmA,435,0
+salC,28,0
+salD,7,0
+salE,7,0
+sdiA,13,0
+sdrM,99,0
+sepA,76,0
+spd,30,19
+sul1,485,711
+sul2,850,217
+sul3,38,61
+sul4,2,2
+tet(32),5339,0
+tet(33),166,7
+tet(36),925,0
+tet(40),488,3
+tet(44),1913,34
+tet(45),1070,492
+tet(59),11,5
+tet(A),768,818
+tet(B),138,170
+tet(C),43,17
+tet(D),7,2
+tet(K),48,57
+tet(M),2230,1448
+tet(O),1514,52
+tet(O/32/O),13,1
+tet(O/W/32/O),47,0
+tet(Q),5784,88
+tet(R),160,168
+tet(S),152,28
+tet(T),17,0
+tet(W),2091,12
+tet(W/N/W),2075,2
+tet(X),612,9
+tet(X1),3,0
+tet(X3),1,0
+tet(X5),1,0
+tet(Z),172,16
+tetB(P),936,0
+tmrB,6,0
+ugd,62,2
+vanB,3,0
+vanC,43,0
+vanE,2,0
+vanF,237,1
+vanG,18754,1
+vanHA,424,0
+vanHB,724,0
+vanHD,1553,0
+vanHF,556,0
+vanHM,182,0
+vanHO,8068,0
+vanHP,40,0
+vanI,9,0
+vanRB,2,0
+vanRC,36,0
+vanRG,19,0
+vanRI,2,0
+vanSB,1,0
+vanTC,376,0
+vanTE,177,0
+vanTG,75660,30
+vanTN,26,0
+vanTmL,8,0
+vanTrL,205,0
+vanUG,202,0
+vanWB,7027,0
+vanWG,7489,0
+vanWI,59891,3
+vanXA,1,0
+vanXB,6,0
+vanXF,312,1
+vanXI,11,0
+vanXO,13,0
+vanXP,146,0
+vanXYC,60,0
+vanXYE,29,0
+vanXYG,10971,0
+vanXYN,42,0
+vanYA,8961,1
+vanYB,45298,4
+vanYF,7812,1
+vanYG,20698,3
+vanYM,9638,2
+vatE,51,1
+ykkC,7,0
+ykkD,9,0
