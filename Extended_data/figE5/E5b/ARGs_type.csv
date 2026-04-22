@@ -1,0 +1,427 @@
+ARGs,ARG_type
+tet(M),tet(M)
+tet(45),tet(45)
+fexA,fexA
+tet(Q),tet(Q)
+tet(A),tet(A)
+qacEdelta1,qacEdelta1
+tet(O),tet(O)
+APH(3')-IIIa,APH(3')-IIIa
+QnrS1,QnrS1
+TEM-1,TEM-1
+sul2,sul2
+ErmB,ErmB
+ErmA,ErmA
+sul1,sul1
+catA8,catA8
+tet(W),tet(W)
+tet(44),tet(44)
+APH(3')-Ia,APH(3')-Ia
+APH(3'')-Ib,APH(3'')-Ib
+lnuC,lnuC
+arr-3,arr-3
+qacG,qacG
+cfrA,cfrA
+Streptococcus suis chloramphenicol acetyltransferase,Streptococcus suis chloramphenicol acetyltransferase
+SAT-4,SAT-4
+FosB3,FosB3
+ANT(6)-Ia,ANT(6)-Ia
+dfrA14,dfrA14
+dfrA17,dfrA17
+ErmF,ErmF
+tet(B),tet(B)
+qacJ,qacJ
+lnuA,lnuA
+fexB,fexB
+tet(R),tet(R)
+dfrA27,dfrA27
+adeF,adeF
+aad(6),aad(6)
+FosXCC,FosXCC
+AAC(6')-IIa,AAC(6')-IIa
+aadA5,aadA5
+poxtA,poxtA
+AAC(3)-IVa,AAC(3)-IVa
+vanTG,vanTG
+arr-2,arr-2
+EstT,EstT
+ANT(2'')-Ia,ANT(2'')-Ia
+nimJ,nimJ
+APH(6)-Id,APH(6)-Id
+aadA16,aadA16
+ANT(4')-Ia,ANT(4')-Ia
+tet(S),tet(S)
+AAC(6')-Ib-cr6,AAC(6')-Ib-cr6
+APH(4)-Ia,APH(4)-Ia
+vanYB,vanYB
+H-NS,H-NS
+Escherichia coli emrE,Escherichia coli emrE
+OXA-10,OXA-10
+npmA,npmA
+CTX-M-55,CTX-M-55
+Vibrio anguillarum chloramphenicol acetyltransferase,Vibrio anguillarum chloramphenicol acetyltransferase
+dfrA12,dfrA12
+AAC(3)-IIc,AAC(3)-IIc
+mefH,mefH
+tet(K),tet(K)
+tet(40),tet(40)
+vanYG,vanYG
+cfrE,cfrE
+qacL,qacL
+vanWI,vanWI
+ErmX,ErmX
+catB3,catB3
+tet(W/N/W),tet(W/N/W)
+aadA2,aadA2
+EreD,EreD
+Mef(En2),Mef(En2)
+Erm(35),Erm(35)
+AAC(6')-Ie-APH(2'')-Ia bifunctional protein,AAC(6')-Ie-APH(2'')-Ia bifunctional protein
+cmlA5,cmlA5
+lnuB,lnuB
+Mrx,Mrx
+tet(X),tet(X)
+APH(2'')-If,APH(2'')-If
+nimA,nimA
+vanYM,vanYM
+APH(3')-IIa,APH(3')-IIa
+cpxA,cpxA
+mphA,mphA
+ANT(3'')-IIa,ANT(3'')-IIa
+FosI,FosI
+ANT(9)-Ia,ANT(9)-Ia
+OXA-347,OXA-347
+OXA-1,OXA-1
+FosA3,FosA3
+oqxA,oqxA
+Campylobacter coli chloramphenicol acetyltransferase,Campylobacter coli chloramphenicol acetyltransferase
+ErmC,ErmC
+vanYA,vanYA
+ErmT,ErmT
+acrD,acrD
+sul3,sul3
+vanG,vanG
+dfrA1,dfrA1
+evgA,evgA
+tet(Z),tet(Z)
+vanYF,vanYF
+ErmG,ErmG
+AAC(6')-Ib8,AAC(6')-Ib8
+tet(O/32/O),tet(O/32/O)
+nimB,nimB
+dfrF,dfrF
+aadS,aadS
+ANT(6)-Ib,ANT(6)-Ib
+FosA8,FosA8
+FosBx1,FosBx1
+leuO,leuO
+kdpE,kdpE
+mdtM,mdtM
+catII from Escherichia coli K-12,catII from Escherichia coli K-12
+dfrG,dfrG
+ugd,ugd
+tet(C),tet(C)
+BRP(MBL),BRP(MBL)
+NDM-5,NDM-5
+cfr(D),cfr(D)
+emrY,emrY
+emrK,emrK
+aadA9,aadA9
+linG,linG
+MCR-1.1,MCR-1.1
+APH(3')-VIa,APH(3')-VIa
+tet(33),tet(33)
+aadA15,aadA15
+lnuG,lnuG
+VEB-17,VEB-17
+Erm(42),Erm(42)
+EreA,EreA
+efmA,efmA
+CMY-59,CMY-59
+CARB-3,CARB-3
+mphE,mphE
+cfrC,cfrC
+SAT-2,SAT-2
+CTX-M-65,CTX-M-65
+bacA,bacA
+abeS,abeS
+vanXF,vanXF
+lnuF,lnuF
+FosD,FosD
+catB8,catB8
+OXA-21,OXA-21
+ANT(9)-Ib,ANT(9)-Ib
+mecA,mecA
+vanF,vanF
+spd,spd
+Staphylococcus intermedius chloramphenicol acetyltransferase,Staphylococcus intermedius chloramphenicol acetyltransferase
+LnuH,LnuH
+AAC(6')-Ia,AAC(6')-Ia
+tet(59),tet(59)
+APH(2'')-Ie,APH(2'')-Ie
+AAC(6')-Ib9,AAC(6')-Ib9
+clcD,clcD
+msrA,msrA
+lsaE,lsaE
+mecR1,mecR1
+mphC,mphC
+CcrA,CcrA
+emtA,emtA
+AAC(6')-Il,AAC(6')-Il
+OXA-58,OXA-58
+aadA7,aadA7
+tet(D),tet(D)
+tet(O/W/32/O),tet(O/W/32/O)
+tet(32),tet(32)
+tetB(P),tetB(P)
+vanXYG,vanXYG
+vanHO,vanHO
+vanWB,vanWB
+Klebsiella pneumoniae KpnF,Klebsiella pneumoniae KpnF
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline
+vanWG,vanWG
+Escherichia coli soxS with mutation conferring antibiotic resistance,Escherichia coli soxS with mutation conferring antibiotic resistance
+nimG,nimG
+Klebsiella pneumoniae KpnE,Klebsiella pneumoniae KpnE
+emrR,emrR
+LnuP,LnuP
+marA,marA
+Erm(52),Erm(52)
+ArnT,ArnT
+ErmQ,ErmQ
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Klebsiella pneumoniae KpnH,Klebsiella pneumoniae KpnH
+vanTC,vanTC
+OXA-136,OXA-136
+Campylobacter jejuni gyrA conferring resistance to fluoroquinolones,Campylobacter jejuni gyrA conferring resistance to fluoroquinolones
+Escherichia coli acrA,Escherichia coli acrA
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+vanXYC,vanXYC
+fosA5,fosA5
+baeR,baeR
+PmrF,PmrF
+vanC,vanC
+gadX,gadX
+AcrE,AcrE
+EC-15,EC-15
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime","Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime"
+EC-14,EC-14
+mdtN,mdtN
+FosA7.5,FosA7.5
+AcrS,AcrS
+vanRC,vanRC
+Escherichia coli mdfA,Escherichia coli mdfA
+AAC(6')-Im,AAC(6')-Im
+vanHF,vanHF
+TolC,TolC
+Helicobacter pylori rpoB mutation conferring resistance to rifampicin,Helicobacter pylori rpoB mutation conferring resistance to rifampicin
+nimK,nimK
+mdtF,mdtF
+nimF,nimF
+mdtP,mdtP
+acrB,acrB
+CrcB,CrcB
+BLMT,BLMT
+Clostridium perfringens mprF,Clostridium perfringens mprF
+QnrB6,QnrB6
+eptA,eptA
+AAC(6')-Ib7,AAC(6')-Ib7
+msbA,msbA
+nimI,nimI
+vanHD,vanHD
+mdtA,mdtA
+mdtE,mdtE
+emrA,emrA
+cepA,cepA
+OmpA,OmpA
+sepA,sepA
+mdtH,mdtH
+tet(36),tet(36)
+catQ,catQ
+vanUG,vanUG
+eptB,eptB
+AAC(6')-Ii,AAC(6')-Ii
+sdrM,sdrM
+mdtB,mdtB
+nimE,nimE
+dfrE,dfrE
+tet(X5),tet(X5)
+catP,catP
+evgS,evgS
+mdtG,mdtG
+LptD,LptD
+YojI,YojI
+norC,norC
+vanHP,vanHP
+AAC(6')-Ib',AAC(6')-Ib'
+QnrD1,QnrD1
+FosA2,FosA2
+mdtO,mdtO
+Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin,Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin
+Klebsiella pneumoniae OmpK37,Klebsiella pneumoniae OmpK37
+RanA,RanA
+Erm(36),Erm(36)
+efrA,efrA
+SHV-11,SHV-11
+apmA,apmA
+RanB,RanB
+Escherichia coli ampC beta-lactamase,Escherichia coli ampC beta-lactamase
+vanTE,vanTE
+catIII,catIII
+OXA-912,OXA-912
+vanHM,vanHM
+rmtB,rmtB
+mdeA,mdeA
+cphA3,cphA3
+baeS,baeS
+patB,patB
+vanTrL,vanTrL
+dfrA16,dfrA16
+Acinetobacter baumannii AmvA,Acinetobacter baumannii AmvA
+Klebsiella pneumoniae KpnG,Klebsiella pneumoniae KpnG
+nimH,nimH
+vanHB,vanHB
+golS,golS
+Acinetobacter baumannii AbaQ,Acinetobacter baumannii AbaQ
+ACI-1,ACI-1
+Streptomyces rimosus otr(A),Streptomyces rimosus otr(A)
+catS,catS
+vatE,vatE
+OXA-820,OXA-820
+Clostridioides difficile gyrB conferring resistance to fluoroquinolones,Clostridioides difficile gyrB conferring resistance to fluoroquinolones
+APH(6)-Ic,APH(6)-Ic
+ACT-56,ACT-56
+AAC(6')-Iy,AAC(6')-Iy
+tet(T),tet(T)
+catA4,catA4
+sdiA,sdiA
+ADC-43,ADC-43
+Morganella morganii gyrB conferring resistance to fluoroquinolones,Morganella morganii gyrB conferring resistance to fluoroquinolones
+Erm(51),Erm(51)
+salC,salC
+vanXP,vanXP
+CfxA6,CfxA6
+msr(G),msr(G)
+mefF,mefF
+DfrA37,DfrA37
+mphO,mphO
+Escherichia coli soxR with mutation conferring antibiotic resistance,Escherichia coli soxR with mutation conferring antibiotic resistance
+salE,salE
+dfrA15,dfrA15
+ErmY,ErmY
+salD,salD
+Erm(49),Erm(49)
+ykkC,ykkC
+mphG,mphG
+vanTN,vanTN
+Mycobacterium tuberculosis folC with mutation conferring resistance to para-aminosalicylic acid,Mycobacterium tuberculosis folC with mutation conferring resistance to para-aminosalicylic acid
+dfrD,dfrD
+vanI,vanI
+APH(2'')-IIIa,APH(2'')-IIIa
+vanHA,vanHA
+DfrB9,DfrB9
+Rhodobacter sphaeroides ampC beta-lactamase,Rhodobacter sphaeroides ampC beta-lactamase
+vanTmL,vanTmL
+Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin,Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin
+ykkD,ykkD
+lnuE,lnuE
+LlmA 23S ribosomal RNA methyltransferase,LlmA 23S ribosomal RNA methyltransferase
+mecI,mecI
+aadA17,aadA17
+ANT(3'')-IIb,ANT(3'')-IIb
+Streptomyces venezuelae rox,Streptomyces venezuelae rox
+nimC,nimC
+lnuD,lnuD
+CblA-1,CblA-1
+vanXI,vanXI
+AAC(6')-Iid,AAC(6')-Iid
+ramA,ramA
+cmeR,cmeR
+vanXO,vanXO
+vanRG,vanRG
+erm(45),erm(45)
+RbpA,RbpA
+aadA11,aadA11
+OXA-140,OXA-140
+dfrA10,dfrA10
+APH(3')-VIIa,APH(3')-VIIa
+OXA-184,OXA-184
+23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A),23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A)
+FusF,FusF
+Corynebacterium striatum tetA,Corynebacterium striatum tetA
+APH(2'')-Ig,APH(2'')-Ig
+rsmA,rsmA
+vanXB,vanXB
+vanXYN,vanXYN
+nimD,nimD
+dfrA6 from Proteus mirabilis,dfrA6 from Proteus mirabilis
+BcI,BcI
+armA,armA
+aadA27,aadA27
+dfrA19,dfrA19
+APH(2'')-IIa,APH(2'')-IIa
+AAC(3)-VIIa,AAC(3)-VIIa
+TRU-1,TRU-1
+almF,almF
+tmrB,tmrB
+ACT-77,ACT-77
+HelR,HelR
+ICR-Mo,ICR-Mo
+EBR-5,EBR-5
+QnrVC5,QnrVC5
+mecB,mecB
+PC1 beta-lactamase (blaZ),PC1 beta-lactamase (blaZ)
+APH(3')-Ib,APH(3')-Ib
+aadK,aadK
+FosK,FosK
+CMH-4,CMH-4
+AAC(6')-Ib-cr3,AAC(6')-Ib-cr3
+CARB-8,CARB-8
+dfrA20,dfrA20
+catB11,catB11
+tet(X3),tet(X3)
+Vibrio cholerae varG,Vibrio cholerae varG
+DHA-1,DHA-1
+vanXA,vanXA
+QnrA3,QnrA3
+almG,almG
+Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin,Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin
+adeL,adeL
+Escherichia coli parE conferring resistance to fluoroquinolones,Escherichia coli parE conferring resistance to fluoroquinolones
+tet(X1),tet(X1)
+CARB-9,CARB-9
+BRO-2,BRO-2
+aphA15,aphA15
+catB2,catB2
+almE,almE
+CDD-2,CDD-2
+Erm(48),Erm(48)
+mphK,mphK
+fusD,fusD
+fusC,fusC
+OXA-334,OXA-334
+CARB-4,CARB-4
+msr(I),msr(I)
+RCP-1,RCP-1
+vanXYE,vanXYE
+vanRI,vanRI
+sul4,sul4
+vanE,vanE
+mphF,mphF
+AAC(6')-Iaj,AAC(6')-Iaj
+BcIII,BcIII
+arr-8,arr-8
+Neisseria gonorrhoeae gyrA conferring resistance to fluoroquinolones,Neisseria gonorrhoeae gyrA conferring resistance to fluoroquinolones
+ANT(4')-Ib,ANT(4')-Ib
+vanB,vanB
+FosG,FosG
+clbC,clbC
+vanRB,vanRB
+OXA-193,OXA-193
+rgt1438,rgt1438
+Erm(34),Erm(34)
+mdtC,mdtC
+dfrL,dfrL
+Sed-1,Sed-1
+vanSB,vanSB
+Limosilactobacillus reuteri cat-TC,Limosilactobacillus reuteri cat-TC

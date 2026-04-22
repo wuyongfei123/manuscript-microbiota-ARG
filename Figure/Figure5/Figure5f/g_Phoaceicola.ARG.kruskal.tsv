@@ -1,0 +1,64 @@
+traits	p	p.adj	p.format	p.signif	method	ARG_ID	Drug.Class	Resistance.Mechanism	live.rate
+ARG373	8.08511038003862e-07	8.1e-07	8.1e-07	****	Kruskal-Wallis	tet(Q)	tetracycline antibiotic	antibiotic target protection	1
+ARG235	5.58430684263469e-05	5.6e-05	5.6e-05	****	Kruskal-Wallis	cfrA	lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; oxazolidinone antibiotic; phenicol antibiotic; pleuromutilin antibiotic	antibiotic target alteration	0.838383838
+ARG97	6.15603966690942e-05	6.2e-05	6.2e-05	****	Kruskal-Wallis	ErmF	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic	antibiotic target alteration	0.996632997
+ARG85	0.000109762666547956	0.00011	0.00011	***	Kruskal-Wallis	EreD	macrolide antibiotic	antibiotic inactivation	1
+ARG143	0.000214828108912263	0.00021	0.00021	***	Kruskal-Wallis	Mef(En2)	macrolide antibiotic	antibiotic efflux	0.996632997
+ARG380	0.000739782377673972	0.00074	0.00074	***	Kruskal-Wallis	tet(X)	glycylcycline; tetracycline antibiotic	antibiotic inactivation	0.986531987
+ARG237	0.00243525454142836	0.0024	0.0024	**	Kruskal-Wallis	cfrE	lincosamide antibiotic; streptogramin antibiotic; oxazolidinone antibiotic; phenicol antibiotic	antibiotic target alteration	0.996632997
+ARG336	0.00392179436727594	0.0039	0.0039	**	Kruskal-Wallis	poxtA	tetracycline antibiotic; oxazolidinone antibiotic; phenicol antibiotic	antibiotic target protection	0.996632997
+ARG353	0.00498873613957348	0.005	0.005	**	Kruskal-Wallis	sul2	sulfonamide antibiotic	antibiotic target replacement	0.996632997
+ARG113	0.0075869637877576	0.0076	0.0076	**	Kruskal-Wallis	EstT	macrolide antibiotic; glycylcycline; tetracycline antibiotic	antibiotic inactivation	0.98989899
+ARG369	0.0116657130432443	0.012	0.012	*	Kruskal-Wallis	tet(M)	tetracycline antibiotic	antibiotic target protection	1
+ARG206	0.0252486731072379	0.025	0.025	*	Kruskal-Wallis	adeF	fluoroquinolone antibiotic; tetracycline antibiotic	antibiotic efflux	1
+ARG191	0.0337441879238616	0.034	0.034	*	Kruskal-Wallis	aad(6)	aminoglycoside antibiotic	antibiotic inactivation	0.828282828
+ARG321	0.0365806378168846	0.037	0.037	*	Kruskal-Wallis	nimA	nitroimidazole antibiotic	antibiotic inactivation	0.996632997
+ARG371	0.0442275980509043	0.044	0.044	*	Kruskal-Wallis	tet(O/32/O)	tetracycline antibiotic	antibiotic target protection	0.986531987
+ARG327	0.0727859428699538	0.073	0.073	ns	Kruskal-Wallis	nimG	nitroimidazole antibiotic	antibiotic inactivation	0.993265993
+ARG118	0.0860766541207235	0.086	0.086	ns	Kruskal-Wallis	FosB3	phosphonic acid antibiotic	antibiotic inactivation	0.740740741
+ARG283	0.0917046555998202	0.092	0.092	ns	Kruskal-Wallis	lnuB	lincosamide antibiotic	antibiotic inactivation	0.612794613
+ARG415	0.0953332862748574	0.095	0.095	ns	Kruskal-Wallis	vanWI	glycopeptide antibiotic	antibiotic target alteration	0.939393939
+ARG413	0.100378091494809	0.1	0.1	ns	Kruskal-Wallis	vanWB	glycopeptide antibiotic	antibiotic target alteration	0.996632997
+ARG396	0.109466545429142	0.11	0.11	ns	Kruskal-Wallis	vanHF	glycopeptide antibiotic	antibiotic target alteration	0.902356902
+ARG14	0.117164972954107	0.12	0.12	ns	Kruskal-Wallis	AAC(6')-Ie-APH(2'')-Ia bifunctional protein	aminoglycoside antibiotic	antibiotic inactivation	0.131313131
+ARG87	0.117352214701306	0.12	0.12	ns	Kruskal-Wallis	Erm(35)	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic	antibiotic target alteration	0.993265993
+ARG177	0.131452980246258	0.13	0.13	ns	Kruskal-Wallis	SAT-4	nucleoside antibiotic	antibiotic inactivation	0.98989899
+ARG272	0.13811838701212	0.14	0.14	ns	Kruskal-Wallis	fexA	phenicol antibiotic	antibiotic efflux	1
+ARG337	0.138408089784989	0.14	0.14	ns	Kruskal-Wallis	qacEdelta1	disinfecting agents and antiseptics	antibiotic efflux	0.31986532
+ARG95	0.137204971703945	0.14	0.14	ns	Kruskal-Wallis	ErmB	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic	antibiotic target alteration	0.97979798
+ARG188	0.146494808069269	0.15	0.15	ns	Kruskal-Wallis	Vibrio anguillarum chloramphenicol acetyltransferase	phenicol antibiotic	antibiotic inactivation	0.98989899
+ARG37	0.158480034873478	0.16	0.16	ns	Kruskal-Wallis	APH(2'')-If	aminoglycoside antibiotic	antibiotic inactivation	0.973063973
+ARG329	0.168151728085495	0.17	0.17	ns	Kruskal-Wallis	nimI	nitroimidazole antibiotic	antibiotic inactivation	0.915824916
+ARG427	0.182080428630032	0.18	0.18	ns	Kruskal-Wallis	vanYB	glycopeptide antibiotic	antibiotic target alteration	0.996632997
+ARG392	0.193716713834957	0.19	0.19	ns	Kruskal-Wallis	vanG	glycopeptide antibiotic	antibiotic target alteration	0.97979798
+ARG284	0.205034735104242	0.21	0.21	ns	Kruskal-Wallis	lnuC	lincosamide antibiotic	antibiotic inactivation	1
+ARG426	0.288091262074734	0.29	0.29	ns	Kruskal-Wallis	vanYA	glycopeptide antibiotic	antibiotic target alteration	0.996632997
+ARG18	0.297884470426982	0.3	0.3	ns	Kruskal-Wallis	AAC(6')-Im	aminoglycoside antibiotic	antibiotic inactivation	0.831649832
+ARG378	0.327583221186502	0.33	0.33	ns	Kruskal-Wallis	tet(W)	tetracycline antibiotic	antibiotic target protection	1
+ARG339	0.339928453790916	0.34	0.34	ns	Kruskal-Wallis	qacJ	disinfecting agents and antiseptics	antibiotic efflux	0.922558923
+ARG39	0.374522059457863	0.37	0.37	ns	Kruskal-Wallis	APH(3'')-Ib	aminoglycoside antibiotic	antibiotic inactivation	0.96969697
+ARG414	0.372410527768409	0.37	0.37	ns	Kruskal-Wallis	vanWG	glycopeptide antibiotic	antibiotic target alteration	0.986531987
+ARG230	0.380609941089324	0.38	0.38	ns	Kruskal-Wallis	catP	phenicol antibiotic	antibiotic inactivation	0.34006734
+ARG398	0.397949203112829	0.4	0.4	ns	Kruskal-Wallis	vanHO	glycopeptide antibiotic	antibiotic target alteration	0.993265993
+ARG424	0.46388241617036	0.46	0.46	ns	Kruskal-Wallis	vanXYG	glycopeptide antibiotic	antibiotic target alteration	0.98989899
+ARG98	0.457797065658017	0.46	0.46	ns	Kruskal-Wallis	ErmG	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic	antibiotic target alteration	0.683501684
+ARG362	0.472090083084686	0.47	0.47	ns	Kruskal-Wallis	tet(45)	tetracycline antibiotic	antibiotic efflux	1
+ARG40	0.520829592440028	0.52	0.52	ns	Kruskal-Wallis	APH(3')-IIIa	aminoglycoside antibiotic	antibiotic inactivation	1
+ARG94	0.532752725375643	0.53	0.53	ns	Kruskal-Wallis	ErmA	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic	antibiotic target alteration	0.986531987
+ARG308	0.535047736984934	0.54	0.54	ns	Kruskal-Wallis	mefH	macrolide antibiotic	antibiotic efflux	0.744107744
+ARG215	0.549589340598838	0.55	0.55	ns	Kruskal-Wallis	arr-3	rifamycin antibiotic	antibiotic inactivation	0.835016835
+ARG05	0.564781582559668	0.56	0.56	ns	Kruskal-Wallis	AAC(6')-IIa	aminoglycoside antibiotic	antibiotic inactivation	0.814814815
+ARG338	0.560045760280173	0.56	0.56	ns	Kruskal-Wallis	qacG	disinfecting agents and antiseptics	antibiotic efflux	0.841750842
+ARG408	0.594977055182462	0.59	0.59	ns	Kruskal-Wallis	vanTG	glycopeptide antibiotic	antibiotic target alteration	0.922558923
+ARG429	0.5850866319887	0.59	0.59	ns	Kruskal-Wallis	vanYG	glycopeptide antibiotic	antibiotic target alteration	0.98989899
+ARG352	0.604890967740378	0.6	0.6	ns	Kruskal-Wallis	sul1	sulfonamide antibiotic	antibiotic target replacement	0.552188552
+ARG124	0.618195498171371	0.62	0.62	ns	Kruskal-Wallis	FosXCC	phosphonic acid antibiotic	antibiotic inactivation	0.973063973
+ARG69	0.631525465913142	0.63	0.63	ns	Kruskal-Wallis	Campylobacter coli chloramphenicol acetyltransferase	phenicol antibiotic	antibiotic inactivation	0.976430976
+ARG48	0.641683317419931	0.64	0.64	ns	Kruskal-Wallis	APH(6)-Id	aminoglycoside antibiotic	antibiotic inactivation	0.663299663
+ARG159	0.665095482036728	0.67	0.67	ns	Kruskal-Wallis	OXA-347	carbapenem; cephalosporin; penam	antibiotic inactivation	0.545454545
+ARG356	0.698534045644484	0.7	0.7	ns	Kruskal-Wallis	tet(32)	tetracycline antibiotic	antibiotic target protection	0.996632997
+ARG330	0.825421556692851	0.83	0.83	ns	Kruskal-Wallis	nimJ	nitroimidazole antibiotic	antibiotic inactivation	0.986531987
+ARG360	0.847181065464605	0.85	0.85	ns	Kruskal-Wallis	tet(40)	tetracycline antibiotic	antibiotic efflux	0.996632997
+ARG370	0.857076900138384	0.86	0.86	ns	Kruskal-Wallis	tet(O)	tetracycline antibiotic	antibiotic target protection	1
+ARG430	0.874563176088452	0.87	0.87	ns	Kruskal-Wallis	vanYM	glycopeptide antibiotic	antibiotic target alteration	0.993265993
+ARG428	0.967817395925987	0.97	0.97	ns	Kruskal-Wallis	vanYF	glycopeptide antibiotic	antibiotic target alteration	0.996632997

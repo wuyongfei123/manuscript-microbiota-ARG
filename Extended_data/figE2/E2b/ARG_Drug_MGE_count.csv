@@ -1,0 +1,120 @@
+Drug_Class,Renamed_MGE_subtype_top10,Count
+FT,tnpA,10
+FT,IS91,5
+FT,Others,5
+M-L-S,tnpA,312
+M-L-S,Others,37
+M-L-S,repUS12,14
+M-L-S,IS91,1
+M-L-S,Tn916,1
+M-L-S,intI1,1
+T-O-P,tnpA,18
+T-O-P,repUS12,1
+aminoglycoside,tnpA,1457
+aminoglycoside,qacEdelta,191
+aminoglycoside,IS91,183
+aminoglycoside,intI1,173
+aminoglycoside,Others,136
+aminoglycoside,tniB,42
+aminoglycoside,repUS12,28
+aminoglycoside,rep7,22
+aminoglycoside,Tn916,5
+aminoglycoside,tnpA10,3
+aminoglycoside ; aminocoumarin,Others,5
+carbapenem,tnpA,1
+cephalosporin,tnpA,160
+cephalosporin,Others,1
+cephalosporin; penam,tnpA,1
+cephamycin,tnpA,12
+diaminopyrimidine,qacEdelta,149
+diaminopyrimidine,tnpA,138
+diaminopyrimidine,intI1,115
+diaminopyrimidine,Others,40
+diaminopyrimidine,tniB,16
+diaminopyrimidine,Tn916,14
+diaminopyrimidine,IS91,6
+diaminopyrimidine,rep7,2
+disinfecting agents and antiseptics,qacEdelta,659
+disinfecting agents and antiseptics,tnpA,164
+disinfecting agents and antiseptics,tniB,117
+disinfecting agents and antiseptics,intI1,53
+disinfecting agents and antiseptics,Others,43
+disinfecting agents and antiseptics,IS91,4
+fluoroquinolone,tnpA,859
+fluoroquinolone,Others,10
+fluoroquinolone,qacEdelta,7
+fluoroquinolone,IS91,1
+fluoroquinolone,tniB,1
+fluoroquinolone ; aminoglycoside,qacEdelta,12
+fluoroquinolone ; aminoglycoside,intI1,9
+fluoroquinolone ; aminoglycoside,tnpA,7
+fluoroquinolone ; aminoglycoside,IS91,3
+glycopeptide,tnpA,55
+glycopeptide,Others,3
+glycopeptide,Tn916,3
+glycylcycline; tetracycline,tnpA,9
+lincosamide,Others,46
+lincosamide,tnpA,38
+lincosamide,qacEdelta,7
+lincosamide,IS91,4
+lincosamide,intI1,4
+lincosamide,tniB,3
+macrolide,tnpA,114
+macrolide,Tn916,26
+macrolide,intI1,3
+macrolide,Others,2
+macrolide,IS91,1
+macrolide,qacEdelta,1
+macrolide ; aminocoumarin,qacEdelta,9
+macrolide ; fluoroquinolone,tnpA,1
+monobactam; cephalosporin,tnpA,4
+monobactam; cephalosporin,qacEdelta,1
+multidrug,tnpA,1160
+multidrug,intI1,19
+multidrug,IS91,17
+multidrug,qacEdelta,14
+multidrug,Tn916,12
+multidrug,Others,10
+multidrug,repUS12,1
+nitroimidazole,tnpA,28
+nitroimidazole,Tn916,1
+nucleoside,tnpA,15
+nucleoside,qacEdelta,4
+nucleoside ; disinfecting agents and antiseptics,tnpA10,1
+penam,tnpA,6
+penam,intI1,2
+peptide,tnpA,6
+phenicol,tnpA,606
+phenicol,rep7,430
+phenicol,repUS12,50
+phenicol,Others,32
+phenicol,Tn916,29
+phenicol,qacEdelta,24
+phenicol,intI1,22
+phenicol,IS91,3
+phosphonic acid,tnpA,249
+phosphonic acid,Others,18
+phosphonic acid,Tn916,9
+phosphonic acid,repUS12,3
+rifamycin,tnpA,64
+rifamycin,IS91,55
+rifamycin,intI1,42
+rifamycin,qacEdelta,25
+rifamycin,tniB,1
+streptogramin ; streptogramin A,tnpA,1
+sulfonamide,qacEdelta,432
+sulfonamide,tnpA,288
+sulfonamide,tniB,119
+sulfonamide,IS91,92
+sulfonamide,Others,30
+sulfonamide,intI1,30
+tetracycline,Tn916,1595
+tetracycline,tnpA,1123
+tetracycline,tnpA10,172
+tetracycline,repUS12,142
+tetracycline,IS10,140
+tetracycline,rep7,129
+tetracycline,Others,66
+tetracycline,IS91,51
+tetracycline,qacEdelta,4
+tetracycline,tniB,1

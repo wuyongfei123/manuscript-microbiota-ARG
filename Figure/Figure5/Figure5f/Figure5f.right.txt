@@ -1,0 +1,5 @@
+Type	number	Category
+I	8	Overdominance
+II	3	Overdominance
+III	2	Dominance
+IV	2	Overdominance
