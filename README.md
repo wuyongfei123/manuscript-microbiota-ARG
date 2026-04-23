@@ -82,7 +82,7 @@ The scripts stored in this directory (duck\_WGS) are mainly used for host genome
 
 ### Part3: Genome-Wide Association Studies
 
-The scripts stored in this directory are mainly used for whole-genome sequencing analysis, with functions including variant data filtering, estimation of additive and dominant genetic variances, and detection, classification, and visualization of additive and dominant trait loci. They are primarily cited from <https://github.com/LeileiCui/ADDO>, with code adjustments made for this study. Example data are stored in the data directory, and AddDom.r can directly call the programs in the R directory to process the data.
+The scripts stored in this directory (GWAS) are mainly used for whole-genome sequencing analysis, with functions including variant data filtering, estimation of additive and dominant genetic variances, and detection, classification, and visualization of additive and dominant trait loci. They are primarily cited from <https://github.com/LeileiCui/ADDO>, with code adjustments made for this study. Example data are stored in the data directory, and AddDom.r can directly call the programs in the R directory to process the data.
 
 ## Statistical analysis and visualization
 
