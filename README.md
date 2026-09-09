@@ -1,6 +1,6 @@
 # Manuscript-microbiota-ARGs
 
-This directory contains scripts related to the manuscript "An overdominant host genetic locus reduces the gut resistome by inhibiting Bacteroidaceae peptidoglycan biosynthesis".
+This directory contains scripts related to the manuscript "An overdominant host genetic locus modulates the abundance of Bacteroidaceae-associated ARGs in the gut microbiome".
 
 Before running, you must ensure that all required softwares and databases are installed successfully.
 
