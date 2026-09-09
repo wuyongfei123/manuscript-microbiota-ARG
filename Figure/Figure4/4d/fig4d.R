@@ -69,12 +69,10 @@ p <- ggplot(merge_data, aes(x = Breed, y = Total_Abundance)) +
     axis.line.y = element_line(color = "black", size = 1),
     plot.background = element_blank(),
     legend.position = "none",
-    
-    # 修改X轴和Y轴的刻度和标题字体为Arial Bold 14
-    axis.text.x = element_text(size = 14, family = "Arial", face = "bold"),  # X轴刻度标签
-    axis.text.y = element_text(size = 14, family = "Arial", face = "bold"),  # Y轴刻度标签
-    axis.title.x = element_text(size = 14, family = "Arial", face = "bold"),  # X轴标题
-    axis.title.y = element_text(size = 14, family = "Arial", face = "bold")  # Y轴标题
+    axis.text.x = element_text(size = 14, family = "Arial", face = "bold"),  
+    axis.text.y = element_text(size = 14, family = "Arial", face = "bold"),  
+    axis.title.x = element_text(size = 14, family = "Arial", face = "bold"),  
+    axis.title.y = element_text(size = 14, family = "Arial", face = "bold")  
   )
 
 p

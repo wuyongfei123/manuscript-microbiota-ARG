@@ -10,7 +10,7 @@ mkdir -p /data/project898/02_Assembly/Quast_out
 xargs -I{} -a /data/project898/455duck.txt bash -c "cp /data/project898/02_Assembly/{}_megahit/rename_final.contigs.fa /data/project898/02_Assembly/Contigs/{}.fa"
 
 # quast评估megahit质量
-xargs -I{} -a /data/project898/SRA.txt -P 4 bash -c "python /home/wbq/miniforge3/envs/quast/bin/quast /data/project898/02_Assembly/Contigs/{}.fa -o /data/project898/02_Assembly/Quast_out/{}_quast_out"
+xargs -I{} -a /data/project898/SRA.txt -P 4 bash -c "python /home/miniforge3/envs/quast/bin/quast /data/project898/02_Assembly/Contigs/{}.fa -o /data/project898/02_Assembly/Quast_out/{}_quast_out"
 
 #merge all contigs from single sample assembled - 根据需求选择合并与否
 # cat /data/project898/02_Assembly/Contigs/allSample_906.final_contigs.fasta /data/project323/02_Assembly/Contigs/allSample_326.final_contigs.fasta /data/project898/02_Assembly/Contigs/hybird_contigs/allSample_ont_54.final_contigs.fasta > /data/project898/02_Assembly_combind_contig_file/allSample_1286.final_contigs.fasta

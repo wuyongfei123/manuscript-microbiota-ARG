@@ -14,12 +14,6 @@ fixed_genus_KO_prevalence <- fixed_genus_KO_prevalence %>%
   select(Symbol_KO, everything())
 fixed_genus_KO_prevalence <- fixed_genus_KO_prevalence[,c(-2,-3)]
 
-#筛选出携带显著KO的行
-target_genes <- c("murE-K01928", "mtgA-K03814", "dacB-K07259", "ftsI-K03587", 
-                  "mrdA-K05515", "dgkA-K00887", "dacC, dacA, dacD-K07258", "pbp5-K18149", 
-                  "vanY-K07260", "spoVD-K08384", "pbpA-K05364")
-fixed_genus_KO_prevalence <- fixed_genus_KO_prevalence[fixed_genus_KO_prevalence$Symbol_KO %in% target_genes, ]
-
 
 #转为数值型
 fixed_genus_KO_prevalence <- fixed_genus_KO_prevalence %>%
@@ -95,17 +89,19 @@ library(grid)
 library(gridExtra)
 library(pheatmap)
 
-# 1. 定义自定义行名顺序 [1](@ref)
+# 1. 定义自定义行名顺序
 custom_row_order <- c(
-  "murE-K01928", "mtgA-K03814", "dacB-K07259","ftsI-K03587", "mrdA-K05515","dgkA-K00887", 
-  "vanY-K07260","dacC, dacA, dacD-K07258", "pbp5-K18149", "spoVD-K08384", 
-  "pbpA-K05364")
+  "Ddl-K01921", "murE-K01928", "murEF-K15792","murF-K01929", "uppS-K00806","bacA-K06153", 
+  "bcrC-K19302","dgkA-K00887", "mraY-K01000", "murG-K02563", "mtgA-K03814","ftsW-K03588",
+  "rodA-K05837","pbpC-K05367","mrcA-K05366","mrcB-K05365","pbp2A-K12555","pbpD-K18770","pbpG-K21464",
+  "mrdA-K05515","ftsI-K03587","pbp5-K18149","pbpB-K08724","spoVD-K08384","pbpA-K05364","pbpA-K21465",
+  "dacC, dacA, dacD-K07258","dacB-K07259","pbp4b","vanY-K07260","vanXY-K18866")
 
 
 # 只保留实际存在的行名
 valid_row_order <- intersect(custom_row_order, rownames(plot_matrix))
 
-# 3. 使用match()函数重新排序矩阵行
+# 重新排序矩阵行
 ordered_matrix <- plot_matrix[match(valid_row_order, rownames(plot_matrix)), ]
 
 
@@ -138,11 +134,11 @@ p_first <- pheatmap(first_group_data,
                     annotation_legend = FALSE,
                     show_colnames = FALSE,
                     show_rownames = TRUE,
-                    labels_row = row_labels,  # 使用自定义行标签
-                    cluster_rows = FALSE,      # 禁用聚类以保持自定义顺序 [2](@ref)
+                    labels_row = row_labels,
+                    cluster_rows = FALSE,      
                     cluster_cols = FALSE,
                     color = custom_colors,
-                    cellheight = cell_height_value,  # 添加这行，控制行高
+                    cellheight = cell_height_value, 
                     border_color = NA,
                     silent = TRUE)
 
@@ -158,11 +154,11 @@ for (group_name in group_order[-1]) {
                       annotation_colors = group_colors,
                       annotation_legend = FALSE,
                       show_colnames = FALSE,
-                      show_rownames = FALSE,  # 不显示行名
-                      cluster_rows = FALSE,   # 禁用聚类以保持自定义顺序
+                      show_rownames = FALSE, 
+                      cluster_rows = FALSE,   
                       cluster_cols = FALSE,
                       color = custom_colors,
-                      cellheight = cell_height_value,  # 使用相同的行高
+                      cellheight = cell_height_value,  
                       border_color = NA,
                       silent = TRUE)
   
@@ -176,7 +172,7 @@ width_ratios <- c(
   "Lys-type genus" = 0.3
 )
 
-# 9. 手动拼接（第一个分组包含行名，其他不包含）
+# 9. 手动拼接
 all_grobs <- c(list(p_first$gtable), other_grobs)
 width_ratios_combined <- c(width_ratios[1], width_ratios[-1])
 

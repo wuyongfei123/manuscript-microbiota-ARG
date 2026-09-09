@@ -19,17 +19,21 @@ Drug_class_abundance$Drug_Class <- factor(Drug_class_abundance$Drug_Class, level
 
 # 定义固定颜色
 colors <- c(
+colors <- c(
   "glycopeptide" = "#DC9FC8",
   "nitroimidazole" = "#C1E7BD",
   "tetracycline" = "#9EC9EB",
   "Others" = "#B0ACAB",
-  "disinfecting agents and antiseptics" = "#FCE693",
   "aminoglycoside" ="#ACD68E",
   "macrolide" =  "#8DA0CB",
   "phenicol" =  "#dc9fa9",
-  "M-L-S" = "#D8C4E9", 
-  "lincosamide" = "#89D1CE" 
+  "multidrug" = "#D8C4E9", 
+  "lincosamide" = "#89D1CE" ,
+  "diaminopyrimidine" = "#C8B291"
 )
+)
+
+
 
 p1 <- ggplot() + 
   theme(
@@ -75,7 +79,7 @@ p1
 Drug_class_count$percentage <- Drug_class_count$Count / sum(Drug_class_count$Count) * 100
 
 # 设置 Drug_ARGs 为因子并排序
-Drug_class_count$Drug_Class <- factor(Drug_class_count$Renamed_Drug_Class, levels = unique(Drug_class_count$Renamed_Drug_Class))
+Drug_class_count$Drug_Class <- factor(Drug_class_count$Drug_Class, levels = unique(Drug_class_count$Drug_Class))
 
 # 定义固定颜色
 colors <- c(
@@ -83,15 +87,12 @@ colors <- c(
   "nitroimidazole" = "#C1E7BD",
   "tetracycline" = "#9EC9EB",
   "Others" = "#B0ACAB",
-  "disinfecting agents and antiseptics" = "#FCE693",
   "aminoglycoside" ="#ACD68E",
   "macrolide" =  "#8DA0CB",
   "phenicol" =  "#dc9fa9",
-  "M-L-S" = "#D8C4E9", 
+  "multidrug" = "#D8C4E9", 
   "lincosamide" = "#89D1CE" ,
-  "F-T" = "#F9B562",
-  "T-O-P" = "#C8B291",
-  "phosphonic acid" = "#f07874"
+  "phosphonic acid" = "#C8B291"
 )
 
 p2 <- ggplot() + 
@@ -123,7 +124,7 @@ p2 <- ggplot() +
       x0 = 0, y0 = 0, 
       r0 = 1, r = 2, 
       amount = percentage,
-      fill = Renamed_Drug_Class
+      fill = Drug_Class
     )
   ) +
   guides(fill = guide_legend(ncol = 1, byrow = TRUE))  

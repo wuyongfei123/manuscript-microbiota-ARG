@@ -40,44 +40,41 @@ breed_order <- c(
 
 # 定义 Species 的颜色映射
 custom_colors <- c(
+  "qacEdelta1" = "#75995F",
+  "tet(M)" = "#D9D3E8",
+  "tet(W/N/W)" = "#c4d9a6", 
   "fexA" = "#917bbd",
-  "qacEdelta1" = "#e76253", 
-  "tet(M)" = "#e4cce4",
-  "qacG" = "#e9d95d",
-  "tet(45)" ="#e8b975",
-  "tetB(P)" = "#ebccb7", 
-  "tet(O/W/32/O)" = "#db8230", 
-  "vanYG"  = "#b19ccb",
   "tet(O)" = "#c35171", 
-  "vanYB" = "#e48fa7",  
-  "lnuC" = "#efcdd6",  
-  "APH(3')-IIIa" = "#dae8f8", 
+  "lnuC" = "#e48fa7",
   "tet(W)" = "#aad5f8",  
   "tet(Q)" = "#5184b3",
+  "tet(44)" = "#e9d95d",
+  "tetB(P)" = "#ebccb7", 
+  "tet(45)" ="#e8b975",
+  "tet(O/W/32/O)" = "#db8230", 
   "Other" = "#cfcfcf" 
 )
+
 arg_breed_final <- arg_breed_final %>%
   mutate(Breed = factor(Breed, levels = breed_order)) %>% 
   group_by(Breed) %>% # 
   arrange(Total_Abundance) %>% 
   ungroup() 
 
-desired_ARG_type_order <- c(
+desired_Best_Hit_ARO_order <- c(
   "Other",
-  "fexA",
-  "qacEdelta1", 
+  "qacEdelta1",
   "tet(M)",
-  "qacG",
-  "tet(45)",
-  "tetB(P)", 
-  "tet(O/W/32/O)", 
-  "vanYG",
-  "tet(O)", 
-  "vanYB",  
-  "lnuC",  
-  "APH(3')-IIIa", 
-  "tet(W)",  
-  "tet(Q)"
+  "tet(W/N/W)", 
+  "tet(O)",
+  "tet(W)" ,
+  "fexA",
+  "lnuC",
+  "tet(Q)",
+  "tet(44)" ,
+  "tetB(P)" , 
+  "tet(45)" ,
+  "tet(O/W/32/O)"
 )
 
 arg_breed_final$ARG_type <- factor(

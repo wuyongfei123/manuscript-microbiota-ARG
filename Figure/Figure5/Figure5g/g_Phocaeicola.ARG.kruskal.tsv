@@ -1,0 +1,47 @@
+traits	p.adj	ARG_id	live.rate	Resistance.Mechanism
+ARG140	8.10E-07	tet(Q)	1	antibiotic target protection
+ARG244	5.60E-05	cfrA	0.845117845	antibiotic target alteration
+ARG71	6.20E-05	ErmF	0.996632997	antibiotic target alteration
+ARG73	0.00011	EreD	1	antibiotic inactivation
+ARG196	0.00021	Mef(En2)	0.996632997	antibiotic efflux
+ARG29	0.00074	tet(X)	0.986531987	antibiotic inactivation
+ARG247	0.0024	cfrE	0.996632997	antibiotic target alteration
+ARG147	0.0042	poxtA	1	antibiotic target protection
+ARG209	0.0076	EstT	0.98989899	antibiotic inactivation
+ARG141	0.0095	tet(M)	1	antibiotic target protection
+ARG304	0.034	aad(6)	0.828282828	antibiotic inactivation
+ARG164	0.044	tet(O/32/O)	0.98989899	antibiotic target protection
+ARG65	0.055	nimA	0.996632997	antibiotic inactivation
+ARG14	0.082	lsaE	0.063973064	antibiotic target protection
+ARG342	0.086	FosB3	0.740740741	antibiotic inactivation
+ARG49	0.092	lnuB	0.616161616	antibiotic inactivation
+ARG198	0.12	Erm(35)	0.993265993	antibiotic target alteration
+ARG271	0.12	AAC(6')-Ie-APH(2'')-Ia bifunctional protein	0.212121212	antibiotic inactivation
+ARG165	0.13	SAT-4	0.98989899	antibiotic inactivation
+ARG43	0.14	qacEdelta1	0.31986532	antibiotic efflux
+ARG62	0.14	ErmB	0.97979798	antibiotic target alteration
+ARG240	0.14	fexA	1	antibiotic efflux
+ARG283	0.15	Vibrio anguillarum chloramphenicol acetyltransferase	0.98989899	antibiotic inactivation
+ARG50	0.21	lnuC	1	antibiotic inactivation
+ARG72	0.23	nimD	0.003367003	antibiotic inactivation
+ARG33	0.3	AAC(6')-Im	0.831649832	antibiotic inactivation
+ARG321	0.33	tet(W)	1	antibiotic target protection
+ARG88	0.35	catQ	0.057239057	antibiotic inactivation
+ARG46	0.37	APH(3'')-Ib	0.976430976	antibiotic inactivation
+ARG87	0.38	catP	0.35016835	antibiotic inactivation
+ARG81	0.42	nimJ	0.966329966	antibiotic inactivation
+ARG74	0.46	ErmG	0.683501684	antibiotic target alteration
+ARG176	0.46	catII from Escherichia coli K-12	0.090909091	antibiotic inactivation
+ARG368	0.47	tet(45)	1	antibiotic efflux
+ARG260	0.52	APH(3')-IIIa	1	antibiotic inactivation
+ARG60	0.53	ErmA	0.986531987	antibiotic target alteration
+ARG331	0.55	arr-3	0.835016835	antibiotic inactivation
+ARG210	0.56	AAC(6')-IIa	0.814814815	antibiotic inactivation
+ARG235	0.59	dfrA1	0.01010101	antibiotic target replacement
+ARG298	0.63	Campylobacter coli chloramphenicol acetyltransferase	0.976430976	antibiotic inactivation
+ARG100	0.67	OXA-347	0.555555556	antibiotic inactivation
+ARG205	0.67	FosXCC	0.973063973	antibiotic inactivation
+ARG239	0.7	tet(32)	1	antibiotic target protection
+ARG189	0.77	ANT(4')-Ia	0.02020202	antibiotic inactivation
+ARG281	0.85	tet(40)	0.996632997	antibiotic efflux
+ARG323	0.86	tet(O)	1	antibiotic target protection

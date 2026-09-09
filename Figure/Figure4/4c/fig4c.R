@@ -37,7 +37,7 @@ CC_data$GroupType<- factor(CC_data$GroupType, levels = group_order)
 # ==========================================================
 
 
-#组内箱线图
+#组内组间箱线图
 p1 <- ggplot(CC_data, aes(x = GroupType, y = Distance, fill = GroupType)) +
   geom_boxplot(width = 0.6, outlier.shape = 21) +
   scale_fill_manual(values = c( "#b7dbe3", "#f5e09b")) +
@@ -92,7 +92,7 @@ feces_data$GroupType<- factor(feces_data$GroupType, levels = group_order)
 # ==========================================================
 
 
-#组内箱线图
+#组内组间箱线图
 p2 <- ggplot(feces_data, aes(x = GroupType, y = Distance, fill = GroupType)) +
   geom_boxplot(width = 0.6, outlier.shape = 21) +
   scale_fill_manual(values = c( "#b7dbe3", "#f5e09b")) +

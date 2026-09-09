@@ -1,0 +1,63 @@
+
+# conda 环境
+conda_envs:
+  qiime2: rachis-qiime2-2026.7
+  picrust2: picrust2
+# 序列文件位置
+samples_metadata_file: configs/16s-raw-metadata.txt
+# 分类器
+classifiers_file: datas/gtdb/gtdb-220-SpeciesReps-338f-806r-classifier.qza
+
+# 是否需要去除引物，前引物，后引物序列
+trim-paired: true
+# 16s 引物 338f-806r
+trim_params:
+  p-front-f: ACTCCTACGGGAGGCAGCAG
+  p-front-r: GGACTACHVGGGTWTCTAAT
+# ITS 引物 ITS1f-ITS2r
+# trim_params:
+#   p-front-f: CTTGGTCATTTAGAGGAAGTAA
+#   p-front-r: GCTGCGTTCTTCATCGATGC
+# 更多引物见configs/扩增常做引物，参考文献，交互式分析项.doc
+
+dada2_params:
+  trim_left_f: 0 # Position at which forward read sequences should be truncated due to decrease in quality.
+  trim_left_r: 0
+  trunc_len_f: 270 # Position at which forward read sequences should be trimmed due to low quality.
+  trunc_len_r: 270
+  extra_params: ' --p-retain-all-samples --p-max-ee-f 5 --p-max-ee-r 5 '
+
+
+alpha_rarefaction:
+  min_depth: 1
+  max_depth: 14136 # 一般取 Frequency per sample 的中位数
+  extra_params: ' --p-steps 50 '
+
+# alpha 可选
+# ace|berger_parker_d|brillouin_d|chao1|chao1_ci|dominance|doubles|enspie|esty_ci|fisher_alpha|gini_index
+# goods_coverage|heip_e|kempton_taylor_q|lladser_pe|margalef|mcintosh_d|mcintosh_e|menhinick|michaelis_menten_fit
+# observed_features|osd|pielou_e|robbins|shannon|simpson|simpson_e|singles|strong|faith_pd
+calculate_alpha_diversity:
+  - observed_features
+  - shannon
+  - faith_pd
+  - pielou_e
+  - chao1
+
+# beta 可选
+# aitchison|braycurtis|canberra|canberra_adkins|chebyshev|cityblock|correlation|cosine|dice|euclidean
+# hamming|jaccard|jensenshannon|matching|minkowski|rogerstanimoto|russellrao|seuclidean|sokalsneath|sqeuclidean|yule
+# generalized_unifrac|unweighted_unifrac|weighted_normalized_unifrac|weighted_unifrac
+calculate_beta_diversity:
+  - braycurtis
+  - unweighted_unifrac
+  - weighted_unifrac
+  - jaccard
+  - aitchison
+
+# 物种注释分类器位置
+classifier:
+  f_primer: 338f
+  r_primer: 806r
+  f_primer_seq: ACTCCTACGGGAGGCAGCAG
+  r_primer_seq: GGACTACHVGGGTWTCTAAT

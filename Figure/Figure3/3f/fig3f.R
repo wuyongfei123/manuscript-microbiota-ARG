@@ -23,20 +23,19 @@ merged_data_matrix <- merged_data_matrix[, desired_order]
 # 绘制热图
 p <- pheatmap(
   merged_data_matrix, 
-  color = custom_colors,  # 蓝-白-红颜色渐变
-  cluster_rows = TRUE,    # 对行聚类
-  cluster_cols = FALSE,   # 禁用列聚类以保留指定顺序
-  #annotation_row = row_annotation,  # 行注释
-  #annotation_colors = annotation_colors,  # 注释颜色
+  color = custom_colors,  
+  cluster_rows = TRUE,    
+  cluster_cols = FALSE,  
+  #annotation_row = row_annotation,
+  #annotation_colors = annotation_colors,  
   #main = "Heatmap of different gut and High Risk ARGs",
   show_rownames = TRUE,
   show_colnames = TRUE,
   fontfamily = "Arial",
-  fontsize_row = 10,  # Y轴标签字体大小
-  fontsize_col = 15,   # X轴标签字体大小
-  scale = "row",    # 数据按列标准化
-  angle_col = 0        # 设置列标签为水平显示
-)
+  fontsize_row = 10, 
+  fontsize_col = 15,  
+  scale = "row",   
+  angle_col = 0       
 
 p
 

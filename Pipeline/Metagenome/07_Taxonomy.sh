@@ -1,20 +1,27 @@
 #!/bin/bash
 
-mkdir -p 04_Taxonomy
-mkdir -p 04_Taxonomy/temp
+diamond blastx \
+    --query "/data3/1162_ARG_data/ARG/ARG_contig_anno_nr_blast/before_cdhit_ARG_contig.fa" \
+    --db /data1/public/databases/diamond/nr_250930/nr.dmnd \
+    --out "/data3/1162_ARG_data/ARG/ARG_contig_anno_nr_blast2/output/contig_anno.tsv" \
+    --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids \
+    --evalue 1e-5 \
+    --threads 4 \
+    --max-target-seqs 5
 
-##############Part4 Taxonomic annotation###########################
-# make Uniprot TrEMBL database
-diamond makedb --in ${Database}/Uniprot/uniprot_trembl.fasta.gz -d ${Database}/Uniprot/uniprot_trembl
 
-#aligning protein sequence of gene catalog to the Uniprot TrEMBL database  
-diamond blastp -q total.protein.faa.90 -d ${Database}/Uniprot/uniprot_trembl.dmnd --tmpdir temp -p 128 -e 1e-5 -k 50 --id 30 --sensitive -o total.protein.faa.90.diamond2uniprot_tremblc
+blast2rma \
+  --in /data3/1162_ARG_data/ARG/ARG_contig_anno_nr_blast2/output/contig_anno.tsv \
+  --format BlastTab \
+  --mapDB /data1/public/databases/megan/megan-map-Feb2022.db \
+  --out /data3/1162_ARG_data/ARG/ARG_contig_anno_nr_blast2/tax_output/contig_anno.rma6 \
+  --threads 64
 
-###basta is configured before use
-#You must download the taxonomy, which automatically downloads the idmapping_selecter.tab.gz file and creates complete_taxa.db
-${basta} taxonomy
-#download uni database from basta,automatic construction prot_mapping.db
-${basta} download uni
-
-#taxonomic classification based on the LCA algorithms
-basta sequence -l 25 -i 80 -e 0.00001 -m 3 -b 1 -p 60 ${Taxonomy}/total.protein.faa.90.diamond2uniprot_trembl /data/project898/05_Taxonomy/Basta/03_lca_out/allsample.diamond2uniprot_trembl.dmnd.lca.out prot
+rma2info \
+  --in /data3/1162_ARG_data/ARG/ARG_contig_anno_nr_blast2/tax_output/contig_anno.rma6 \
+  --out /data3/1162_ARG_data/ARG/ARG_contig_anno_nr_blast2/tax_output/contig_anno_read2taxonomy2.txt \
+  --read2class Taxonomy \
+  --names \
+  --paths \
+  --ranks \
+  --majorRanksOnly

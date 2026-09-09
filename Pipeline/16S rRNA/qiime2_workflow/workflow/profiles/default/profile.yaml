@@ -1,0 +1,21 @@
+
+# executor: slurm
+# jobs: 100
+use-conda: true
+keep-incomplete: true
+default-resources:
+  mem_mb: "max(2 * input.size_mb * threads, 8192)"
+  threads: 8
+  tmpdir: /local/tmp
+set-threads:
+  fastq_summarize: 1
+  dada2_paired: 96
+  tax_classify: 96
+  picrust2: 24
+set-resources:
+  fastq_summarize:
+    mem_mb: 1024*16
+  picrust2: 
+    mem_mb: 240*1024
+
+# slurm-jobname-prefix: qiime2

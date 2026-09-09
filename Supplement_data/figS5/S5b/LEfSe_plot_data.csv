@@ -1,0 +1,16 @@
+Comparison,Taxa,Method,Group,LDA,P,Significance
+dual_type - egg_type - MAL - meat_type,tet(Q),LEfSe,MAL,5.142896731257483,2.2494289095260667e-26,***
+dual_type - egg_type - MAL - meat_type,APH(3')-IIIa,LEfSe,meat_type,4.623720433454759,1.0906985700263177e-21,***
+dual_type - egg_type - MAL - meat_type,tet(O),LEfSe,meat_type,4.541994056801649,3.3665216318736942e-6,***
+dual_type - egg_type - MAL - meat_type,tet(W),LEfSe,egg_type,4.458089266690304,2.2852952932067583e-5,***
+dual_type - egg_type - MAL - meat_type,SAT-4,LEfSe,meat_type,4.123296534976186,3.320451983304439e-24,***
+dual_type - egg_type - MAL - meat_type,Mef(En2),LEfSe,egg_type,4.101040148894814,2.180834788811304e-28,***
+dual_type - egg_type - MAL - meat_type,FosXCC,LEfSe,meat_type,4.1003614969814715,3.5821217445953106e-34,***
+dual_type - egg_type - MAL - meat_type,poxtA,LEfSe,dual_type,4.065792192872286,1.255018263262601e-34,***
+dual_type - egg_type - MAL - meat_type,lnuC,LEfSe,dual_type,4.055505787994408,8.362163760624831e-4,***
+dual_type - egg_type - MAL - meat_type,cfrE,LEfSe,egg_type,3.9965262550081015,8.041634030503858e-21,***
+dual_type - egg_type - MAL - meat_type,ErmF,LEfSe,MAL,3.9527800386986063,2.0785024279992026e-10,***
+dual_type - egg_type - MAL - meat_type,vanYB,LEfSe,egg_type,3.944645037369125,6.418670204975639e-19,***
+dual_type - egg_type - MAL - meat_type,EreD,LEfSe,egg_type,3.9141758959699584,5.40051667017887e-32,***
+dual_type - egg_type - MAL - meat_type,tet(44),LEfSe,meat_type,3.8733974603907506,4.867987906337246e-4,***
+dual_type - egg_type - MAL - meat_type,tet(X),LEfSe,egg_type,3.856911045858717,5.837781831802927e-30,***

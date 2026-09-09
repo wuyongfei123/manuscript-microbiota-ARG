@@ -1,0 +1,11 @@
+Type,letter
+MAL,a
+meat_type,b
+dual_type,c
+egg_type,d
+MAL vs. meat_type,a
+MAL vs. dual_type,b
+MAL vs. egg_type,a
+meat_type vs. dual_type,a
+meat_type vs. egg_type,c
+dual_type vs. egg_type,d

@@ -1,0 +1,408 @@
+ARG_type,RI,Risk_Level,sorted
+tet(M),2273.613658,Risk I,407
+tet(Q),1075.565806,Risk I,406
+tet(45),976.1105,Risk I,405
+fexA,742.4965336,Risk I,404
+tet(O),351.1177433,Risk I,403
+lnuC,313.4159659,Risk I,402
+SAT-4,234.435991,Risk I,401
+ErmB,175.2980889,Risk I,400
+APH(3')-IIIa,172.8296245,Risk I,399
+qacEdelta1,134.8343538,Risk I,398
+sul2,120.4005897,Risk I,397
+ErmA,101.5842462,Risk I,396
+catA8,73.88174805,Risk I,395
+Streptococcus suis chloramphenicol acetyltransferase,64.50641195,Risk I,394
+TEM-1,43.14698351,Risk I,393
+APH(3'')-Ib,32.98324866,Risk I,392
+sul1,30.9985735,Risk I,391
+arr-3,29.00135573,Risk I,390
+nimJ,27.73954136,Risk I,389
+aad(6),27.12057104,Risk I,388
+tet(S),19.85356293,Risk I,387
+LnuP,18.61972279,Risk I,386
+lnuA,16.91636705,Risk I,385
+APH(3')-Ia,16.5858568,Risk I,384
+EstT,14.27107368,Risk I,383
+fexB,13.20663849,Risk I,382
+tet(A),12.99554055,Risk I,381
+FosXCC,12.96948425,Risk I,380
+poxtA,12.96580584,Risk I,379
+AAC(6')-IIa,10.72231119,Risk I,378
+ErmF,10.5185052,Risk I,377
+tet(X),9.818243895,Risk I,376
+tet(O/W/32/O),7.676956411,Risk II,375
+APH(2'')-If,7.168085811,Risk II,374
+dfrA27,6.393585932,Risk II,373
+ANT(2'')-Ia,5.714087896,Risk II,372
+nimA,4.63434609,Risk II,371
+ErmT,4.243065311,Risk II,370
+ErmX,4.204968967,Risk II,369
+ErmG,4.096264982,Risk II,368
+Erm(35),2.62709772,Risk II,367
+AAC(6')-Ie-APH(2'')-Ia bifunctional protein,2.36508294,Risk II,366
+arr-2,2.344031044,Risk II,365
+ANT(4')-Ia,2.240046608,Risk II,364
+aadS,2.098458129,Risk II,363
+dfrA14,2.057557456,Risk II,362
+APH(6)-Id,1.830232631,Risk II,361
+Campylobacter coli chloramphenicol acetyltransferase,1.704783226,Risk II,360
+tet(W),1.255007126,Risk II,359
+aadA2,1.127697131,Risk II,358
+dfrG,1.103233418,Risk II,357
+dfrA17,1.023585209,Risk II,356
+tet(44),1.010079903,Risk II,355
+tet(40),0.888569445,Risk II,354
+tet(K),0.655047554,Risk II,353
+catP,0.601198272,Risk II,352
+OXA-10,0.591493183,Risk II,351
+AAC(3)-IVa,0.521005208,Risk II,350
+vanYB,0.481986386,Risk II,349
+aadA5,0.396126055,Risk II,348
+Vibrio anguillarum chloramphenicol acetyltransferase,0.35248013,Risk II,347
+tet(32),0.336171129,Risk II,346
+dfrA12,0.234271115,Risk II,345
+qacL,0.229039334,Risk II,344
+cmlA5,0.222361132,Risk III,343
+npmA,0.208105983,Risk III,342
+AAC(6')-Ib-cr6,0.173119758,Risk III,341
+ANT(9)-Ia,0.170654558,Risk III,340
+ANT(6)-Ia,0.167021275,Risk III,339
+aadA16,0.154870055,Risk III,338
+catIII,0.117331035,Risk III,337
+FosB3,0.092674409,Risk III,336
+ErmC,0.088542782,Risk III,335
+dfrA1,0.084048301,Risk III,334
+catB3,0.075857444,Risk III,333
+AAC(3)-IIc,0.075322285,Risk III,332
+FosBx1,0.050824043,Risk III,331
+APH(3')-IIa,0.04412628,Risk III,330
+QnrS1,0.037856487,Risk III,329
+Mef(En2),0.037111806,Risk III,328
+AAC(6')-Ib8,0.03649555,Risk III,327
+CTX-M-55,0.032204185,Risk III,326
+lnuG,0.030970998,Risk III,325
+FosA8,0.028737489,Risk III,324
+vanYG,0.025511003,Risk III,323
+cfrE,0.024061341,Risk III,322
+tet(W/N/W),0.021090553,Risk III,321
+qacG,0.010525677,Risk III,320
+CARB-3,0.009903699,Risk III,319
+OXA-1,0.009760969,Risk III,318
+vatE,0.009162234,Risk III,317
+tet(B),0.008039368,Risk III,316
+catQ,0.007648034,Risk III,315
+qacJ,0.007281911,Risk III,314
+cfrA,0.006647031,Risk III,313
+BLMT,0.006272012,Risk III,312
+FosA2,0.005519553,Risk IV,311
+Staphylococcus intermedius chloramphenicol acetyltransferase,0.004952073,Risk IV,310
+tet(C),0.003963328,Risk IV,309
+OXA-347,0.002616903,Risk IV,308
+dfrF,0.001906788,Risk IV,307
+clcD,0.001821114,Risk IV,306
+SAT-2,0.001784492,Risk IV,305
+AAC(6')-Ia,0.001563275,Risk IV,304
+linG,0.001551058,Risk IV,303
+nimH,0.001307789,Risk IV,302
+FosD,0.001174055,Risk IV,301
+dfrA15,0.001166237,Risk IV,300
+catB8,0.00113151,Risk IV,299
+EreA,0.000837419,Risk IV,298
+AAC(6')-Im,7.36E-04,Risk IV,297
+spd,7.12E-04,Risk IV,296
+aadA17,3.84E-04,Risk IV,295
+AAC(6')-Ib9,3.34E-04,Risk IV,294
+MCR-1.1,2.87E-04,Risk IV,293
+vanXB,1.20E-04,Risk IV,292
+msrA,1.11E-04,Risk IV,291
+mphC,9.79E-05,Risk IV,290
+CfxA6,8.60E-05,Risk IV,289
+vanHB,6.96E-05,Risk IV,288
+23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A),5.73E-05,Risk IV,287
+catB2,5.69E-05,Risk IV,286
+aadA7,4.37E-05,Risk IV,285
+mecI,4.19E-05,Risk IV,284
+mecR1,2.73E-05,Risk IV,283
+lsaE,2.10E-05,Risk IV,282
+vanRB,4.07E-06,Risk IV,281
+vanB,2.54E-06,Risk IV,280
+vanSB,2.54E-07,Risk IV,279
+AAC(6')-Ib-cr3,0,Risk V,1
+AAC(6')-Ii,0,Risk V,2
+AAC(6')-Iid,0,Risk V,3
+AAC(6')-Iy,0,Risk V,4
+ACI-1,0,Risk V,5
+ACT-77,0,Risk V,6
+ADC-43,0,Risk V,7
+ANT(3'')-IIa,0,Risk V,8
+ANT(6)-Ib,0,Risk V,9
+APH(2'')-IIIa,0,Risk V,10
+APH(2'')-IIa,0,Risk V,11
+APH(2'')-Ie,0,Risk V,12
+APH(2'')-Ig,0,Risk V,13
+APH(3')-Ib,0,Risk V,14
+APH(3')-VIIa,0,Risk V,15
+APH(3')-VIa,0,Risk V,16
+APH(4)-Ia,0,Risk V,17
+Acinetobacter baumannii AbaQ,0,Risk V,18
+AcrE,0,Risk V,19
+AcrS,0,Risk V,20
+ArnT,0,Risk V,21
+BRP(MBL),0,Risk V,22
+Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin,0,Risk V,23
+CARB-4,0,Risk V,24
+CARB-8,0,Risk V,25
+CARB-9,0,Risk V,26
+CDD-2,0,Risk V,27
+CMH-4,0,Risk V,28
+CTX-M-65,0,Risk V,29
+Campylobacter jejuni gyrA conferring resistance to fluoroquinolones,0,Risk V,30
+CblA-1,0,Risk V,31
+Clostridioides difficile gyrB conferring resistance to fluoroquinolones,0,Risk V,32
+Clostridium perfringens mprF,0,Risk V,33
+CrcB,0,Risk V,34
+DHA-1,0,Risk V,35
+DfrA37,0,Risk V,36
+DfrB9,0,Risk V,37
+EC-14,0,Risk V,38
+EC-15,0,Risk V,39
+EreD,0,Risk V,40
+Erm(36),0,Risk V,41
+Erm(42),0,Risk V,42
+Erm(49),0,Risk V,43
+Erm(51),0,Risk V,44
+Erm(52),0,Risk V,45
+ErmQ,0,Risk V,46
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",0,Risk V,47
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,0,Risk V,48
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,0,Risk V,49
+Escherichia coli acrA,0,Risk V,50
+Escherichia coli ampC beta-lactamase,0,Risk V,51
+Escherichia coli emrE,0,Risk V,52
+Escherichia coli mdfA,0,Risk V,53
+Escherichia coli parE conferring resistance to fluoroquinolones,0,Risk V,54
+Escherichia coli soxR with mutation conferring antibiotic resistance,0,Risk V,55
+Escherichia coli soxS with mutation conferring antibiotic resistance,0,Risk V,56
+FosA3,0,Risk V,57
+FosA7.5,0,Risk V,58
+H-NS,0,Risk V,59
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0,Risk V,60
+Klebsiella pneumoniae KpnE,0,Risk V,61
+Klebsiella pneumoniae KpnF,0,Risk V,62
+Klebsiella pneumoniae KpnG,0,Risk V,63
+Klebsiella pneumoniae KpnH,0,Risk V,64
+Klebsiella pneumoniae OmpK37,0,Risk V,65
+Limosilactobacillus reuteri cat-TC,0,Risk V,66
+LlmA 23S ribosomal RNA methyltransferase,0,Risk V,67
+LnuH,0,Risk V,68
+LptD,0,Risk V,69
+Morganella morganii gyrB conferring resistance to fluoroquinolones,0,Risk V,70
+Mrx,0,Risk V,71
+Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin,0,Risk V,72
+NDM-5,0,Risk V,73
+OXA-136,0,Risk V,74
+OXA-184,0,Risk V,75
+OXA-21,0,Risk V,76
+OXA-58,0,Risk V,77
+OXA-820,0,Risk V,78
+OmpA,0,Risk V,79
+PmrF,0,Risk V,80
+RanA,0,Risk V,81
+RanB,0,Risk V,82
+SHV-11,0,Risk V,83
+TolC,0,Risk V,84
+VEB-17,0,Risk V,85
+Vibrio cholerae varG,0,Risk V,86
+YojI,0,Risk V,87
+aadA11,0,Risk V,88
+aadK,0,Risk V,89
+abeS,0,Risk V,90
+acrB,0,Risk V,91
+acrD,0,Risk V,92
+adeF,0,Risk V,93
+adeL,0,Risk V,94
+almE,0,Risk V,95
+almF,0,Risk V,96
+almG,0,Risk V,97
+aphA15,0,Risk V,98
+apmA,0,Risk V,99
+bacA,0,Risk V,100
+baeR,0,Risk V,101
+baeS,0,Risk V,102
+catA4,0,Risk V,103
+catII from Escherichia coli K-12,0,Risk V,104
+catS,0,Risk V,105
+cepA,0,Risk V,106
+cmeR,0,Risk V,107
+cpxA,0,Risk V,108
+dfrA19,0,Risk V,109
+dfrE,0,Risk V,110
+efmA,0,Risk V,111
+efrA,0,Risk V,112
+emrA,0,Risk V,113
+emrK,0,Risk V,114
+emrR,0,Risk V,115
+emrY,0,Risk V,116
+eptA,0,Risk V,117
+eptB,0,Risk V,118
+erm(45),0,Risk V,119
+evgA,0,Risk V,120
+evgS,0,Risk V,121
+fosA5,0,Risk V,122
+fusD,0,Risk V,123
+gadX,0,Risk V,124
+golS,0,Risk V,125
+kdpE,0,Risk V,126
+leuO,0,Risk V,127
+lnuB,0,Risk V,128
+lnuD,0,Risk V,129
+marA,0,Risk V,130
+mdtA,0,Risk V,131
+mdtB,0,Risk V,132
+mdtC,0,Risk V,133
+mdtE,0,Risk V,134
+mdtF,0,Risk V,135
+mdtG,0,Risk V,136
+mdtH,0,Risk V,137
+mdtM,0,Risk V,138
+mdtN,0,Risk V,139
+mdtO,0,Risk V,140
+mdtP,0,Risk V,141
+mecA,0,Risk V,142
+mecB,0,Risk V,143
+mefF,0,Risk V,144
+mefH,0,Risk V,145
+mphA,0,Risk V,146
+mphE,0,Risk V,147
+mphK,0,Risk V,148
+msbA,0,Risk V,149
+msr(G),0,Risk V,150
+nimB,0,Risk V,151
+nimD,0,Risk V,152
+nimE,0,Risk V,153
+nimF,0,Risk V,154
+nimG,0,Risk V,155
+nimI,0,Risk V,156
+norC,0,Risk V,157
+oqxA,0,Risk V,158
+patB,0,Risk V,159
+ramA,0,Risk V,160
+rsmA,0,Risk V,161
+salC,0,Risk V,162
+salD,0,Risk V,163
+salE,0,Risk V,164
+sdiA,0,Risk V,165
+sdrM,0,Risk V,166
+sepA,0,Risk V,167
+sul3,0,Risk V,168
+sul4,0,Risk V,169
+tet(36),0,Risk V,170
+tet(59),0,Risk V,171
+tet(D),0,Risk V,172
+tet(T),0,Risk V,173
+tet(X1),0,Risk V,174
+tet(X5),0,Risk V,175
+tet(Z),0,Risk V,176
+tetB(P),0,Risk V,177
+tmrB,0,Risk V,178
+ugd,0,Risk V,179
+vanC,0,Risk V,180
+vanF,0,Risk V,181
+vanG,0,Risk V,182
+vanHF,0,Risk V,183
+vanRC,0,Risk V,184
+vanRG,0,Risk V,185
+vanTC,0,Risk V,186
+vanTG,0,Risk V,187
+vanUG,0,Risk V,188
+vanWB,0,Risk V,189
+vanWG,0,Risk V,190
+vanWI,0,Risk V,191
+vanXF,0,Risk V,192
+vanXYC,0,Risk V,193
+vanXYG,0,Risk V,194
+vanYA,0,Risk V,195
+vanYF,0,Risk V,196
+vanYM,0,Risk V,197
+ykkC,0,Risk V,198
+ykkD,0,Risk V,199
+OXA-140,0,Risk V,200
+aadA15,0,Risk V,201
+AAC(6')-Il,0,Risk V,202
+clbC,0,Risk V,203
+QnrB6,0,Risk V,204
+lnuE,0,Risk V,205
+lnuF,0,Risk V,206
+vanXA,0,Risk V,207
+vanXI,0,Risk V,208
+nimC,0,Risk V,209
+vanXO,0,Risk V,210
+vanHO,0,Risk V,211
+ErmY,0,Risk V,212
+Erm(34),0,Risk V,213
+emtA,0,Risk V,214
+vanXYE,0,Risk V,215
+Helicobacter pylori rpoB mutation conferring resistance to rifampicin,0,Risk V,216
+tet(X3),0,Risk V,217
+catB11,0,Risk V,218
+cphA3,0,Risk V,219
+APH(6)-Ic,0,Risk V,220
+OXA-193,0,Risk V,221
+dfrA6 from Proteus mirabilis,0,Risk V,222
+aadA27,0,Risk V,223
+rgt1438,0,Risk V,224
+RCP-1,0,Risk V,225
+Neisseria gonorrhoeae gyrA conferring resistance to fluoroquinolones,0,Risk V,226
+Corynebacterium striatum tetA,0,Risk V,227
+HelR,0,Risk V,228
+rmtB,0,Risk V,229
+ANT(9)-Ib,0,Risk V,230
+tet(O/32/O),0,Risk V,231
+armA,0,Risk V,232
+CMY-59,0,Risk V,233
+Mycobacterium tuberculosis folC with mutation conferring resistance to para-aminosalicylic acid,0,Risk V,234
+Acinetobacter baumannii AmvA,0,Risk V,235
+ANT(4')-Ib,0,Risk V,236
+Streptomyces venezuelae rox,0,Risk V,237
+FusF,0,Risk V,238
+AAC(3)-VIIa,0,Risk V,239
+EBR-5,0,Risk V,240
+AAC(6')-Iaj,0,Risk V,241
+dfrA10,0,Risk V,242
+dfrA16,0,Risk V,243
+aadA9,0,Risk V,244
+cfrC,0,Risk V,245
+QnrD1,0,Risk V,246
+ICR-Mo,0,Risk V,247
+dfrD,0,Risk V,248
+TRU-1,0,Risk V,249
+dfrL,0,Risk V,250
+RbpA,0,Risk V,251
+CcrA,0,Risk V,252
+ACT-56,0,Risk V,253
+fusC,0,Risk V,254
+vanRI,0,Risk V,255
+AAC(6')-Ib',0,Risk V,256
+AAC(6')-Ib7,0,Risk V,257
+Rhodobacter sphaeroides ampC beta-lactamase,0,Risk V,258
+Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin,0,Risk V,259
+ANT(3'')-IIb,0,Risk V,260
+dfrA20,0,Risk V,261
+Erm(48),0,Risk V,262
+tet(33),0,Risk V,263
+msr(I),0,Risk V,264
+arr-8,0,Risk V,265
+QnrA3,0,Risk V,266
+Sed-1,0,Risk V,267
+QnrVC5,0,Risk V,268
+PC1 beta-lactamase (blaZ),0,Risk V,269
+FosG,0,Risk V,270
+BRO-2,0,Risk V,271
+FosK,0,Risk V,272
+OXA-912,0,Risk V,273
+cfr(D),0,Risk V,274
+mphF,0,Risk V,275
+OXA-334,0,Risk V,276
+mphG,0,Risk V,277
+mphO,0,Risk V,278

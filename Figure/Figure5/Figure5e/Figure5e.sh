@@ -1,0 +1,2 @@
+LDBlockShow -InVCF Phocaeicola.topSNP_vcf.vcf -OutPut topSNP.n4 -Region 1:131826000:131831000 -OutPng -SeleVar 2
+ShowLDSVG -InPreFix topSNP.n4 -OutPut out.1.svg --ShowNum -SpeSNPName Phocaeicola.topSNP.id

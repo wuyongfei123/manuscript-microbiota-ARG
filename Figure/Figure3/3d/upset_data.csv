@@ -1,0 +1,408 @@
+ARG_type,Stomach,small_intestine,large_intestine,Feces
+BLMT,0,0,1,1
+OXA-10,1,1,1,1
+bacA,1,0,1,1
+OXA-58,0,0,0,1
+Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin,0,1,1,1
+ANT(2'')-Ia,1,1,1,1
+CARB-3,1,1,1,1
+CARB-4,0,0,0,1
+DfrA37,0,1,1,1
+CARB-8,0,0,0,1
+CARB-9,0,0,1,0
+kdpE,1,1,1,1
+Morganella morganii gyrB conferring resistance to fluoroquinolones,0,0,1,1
+lsaE,0,1,1,1
+Erm(49),0,0,1,1
+CDD-2,0,0,1,0
+OXA-140,0,0,1,1
+aadA11,1,1,1,1
+OXA-184,0,0,1,1
+aadA15,1,0,1,1
+aadA16,1,1,1,1
+OmpA,0,0,1,0
+aadA17,1,1,1,1
+AAC(6')-Ia,0,0,1,1
+catA4,0,0,1,1
+AAC(6')-Ii,0,1,1,1
+mefF,0,1,1,1
+catA8,1,1,1,1
+tet(X),1,0,1,1
+mefH,1,1,1,1
+tet(T),1,1,1,1
+AAC(6')-Il,0,0,1,1
+AAC(6')-Im,1,1,1,1
+tet(D),0,0,1,0
+AAC(6')-Iy,1,0,1,0
+clbC,0,0,0,0
+abeS,1,0,0,1
+rsmA,0,0,0,1
+APH(4)-Ia,1,0,1,1
+qacG,0,1,1,1
+qacJ,0,1,1,1
+qacL,1,0,1,1
+qacEdelta1,1,1,1,1
+QnrB6,0,0,1,1
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,1,1,1,1
+APH(3'')-Ib,1,1,1,1
+NDM-5,0,0,0,1
+lnuA,1,1,1,1
+lnuB,1,1,1,1
+lnuC,1,1,1,1
+lnuD,0,0,0,1
+lnuE,0,1,1,0
+lnuF,1,1,1,1
+lnuG,1,1,1,1
+ACT-77,0,0,1,0
+vanXA,0,0,0,1
+vanXB,0,0,1,1
+vanTC,1,1,1,1
+vanXF,0,0,1,1
+ErmA,1,1,1,1
+vanHB,0,0,1,0
+ErmB,1,1,1,1
+vanTG,0,1,1,1
+ErmC,1,1,1,1
+nimA,1,1,1,1
+EreA,1,1,1,1
+vanXI,0,0,1,1
+nimB,1,0,1,1
+nimC,0,0,1,0
+vanHF,0,0,1,0
+ErmF,1,1,1,1
+nimD,0,0,1,1
+EreD,1,1,1,1
+ErmG,1,1,1,1
+nimE,0,0,1,1
+nimF,0,0,1,1
+nimG,0,0,1,1
+vanXO,0,1,0,1
+nimH,0,0,1,1
+nimI,0,0,1,0
+nimJ,1,1,1,1
+vanHO,0,0,0,1
+ErmQ,1,1,1,1
+ErmT,1,1,1,1
+ErmX,1,1,1,1
+ErmY,0,1,1,1
+catP,0,0,1,1
+catQ,1,1,1,1
+catS,1,1,1,1
+SHV-11,0,0,1,0
+evgA,1,1,1,1
+msrA,0,1,1,1
+msbA,1,1,1,1
+apmA,0,0,1,1
+Erm(34),0,0,0,0
+emtA,0,0,1,1
+Escherichia coli ampC beta-lactamase,1,1,1,1
+CblA-1,0,0,1,1
+evgS,1,1,1,1
+OXA-347,1,0,1,1
+adeF,1,1,1,1
+npmA,0,0,1,1
+BRP(MBL),0,0,0,1
+vanXYC,1,1,1,1
+adeL,0,0,0,1
+vanXYE,0,0,0,1
+vanXYG,0,0,1,1
+aadK,0,0,0,1
+TolC,1,1,1,1
+Helicobacter pylori rpoB mutation conferring resistance to rifampicin,1,1,1,1
+tet(X3),1,0,0,1
+aadS,1,1,1,1
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",1,1,1,1
+catB11,0,0,1,1
+Clostridioides difficile gyrB conferring resistance to fluoroquinolones,0,0,1,1
+OXA-21,1,0,1,1
+cphA3,0,1,0,0
+H-NS,1,1,1,1
+APH(3')-VIa,1,0,1,1
+sdiA,1,0,1,0
+salC,0,1,1,1
+salD,1,1,1,1
+salE,0,0,1,1
+APH(6)-Ic,0,0,1,1
+Streptococcus suis chloramphenicol acetyltransferase,1,1,1,1
+APH(6)-Id,1,1,1,1
+Erm(42),0,0,1,1
+OXA-193,0,0,1,0
+dfrA6 from Proteus mirabilis,0,0,1,1
+aadA27,1,0,0,1
+Escherichia coli soxR with mutation conferring antibiotic resistance,1,1,1,1
+catB2,1,0,0,1
+gadX,1,1,1,1
+catB3,1,1,1,1
+patB,1,1,1,1
+mecA,0,0,1,1
+mecB,0,1,1,1
+catB8,0,0,1,1
+rgt1438,0,1,0,0
+tet(Q),1,1,1,1
+tet(M),1,1,1,1
+mecI,0,0,1,1
+tet(A),1,1,1,1
+ArnT,1,1,1,1
+RCP-1,0,0,0,1
+Neisseria gonorrhoeae gyrA conferring resistance to fluoroquinolones,1,0,0,1
+poxtA,1,1,1,1
+Staphylococcus intermedius chloramphenicol acetyltransferase,0,1,1,1
+clcD,0,0,1,1
+Clostridium perfringens mprF,1,1,1,1
+Corynebacterium striatum tetA,0,0,0,1
+HelR,0,0,0,0
+msr(G),1,1,1,1
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,1,1,1,1
+APH(2'')-Ie,0,0,1,1
+APH(2'')-If,1,1,1,1
+APH(2'')-Ig,0,0,1,0
+rmtB,0,0,1,1
+catIII,1,0,1,1
+QnrS1,1,1,1,1
+ANT(9)-Ia,1,1,1,1
+SAT-2,0,0,1,1
+ANT(9)-Ib,0,1,1,1
+tet(O/32/O),1,1,1,1
+SAT-4,1,1,1,1
+vatE,0,1,1,1
+Klebsiella pneumoniae KpnE,1,1,1,1
+Klebsiella pneumoniae KpnF,1,1,1,1
+AAC(3)-IIc,1,1,1,1
+Klebsiella pneumoniae KpnG,0,0,1,0
+Klebsiella pneumoniae KpnH,1,1,1,1
+armA,0,0,1,1
+CMY-59,0,0,1,1
+Mrx,0,0,1,1
+aphA15,0,0,0,1
+catII from Escherichia coli K-12,1,0,1,1
+Mycobacterium tuberculosis folC with mutation conferring resistance to para-aminosalicylic acid,0,0,0,1
+efmA,0,1,1,1
+erm(45),0,1,1,1
+vanYA,0,0,1,1
+Acinetobacter baumannii AmvA,1,0,0,1
+vanYB,1,1,1,1
+vanYF,0,0,1,1
+vanYG,1,1,1,1
+vanUG,0,0,1,1
+vanYM,0,1,1,1
+LlmA 23S ribosomal RNA methyltransferase,0,0,1,0
+cmeR,0,0,1,1
+ANT(4')-Ia,1,1,1,1
+ANT(4')-Ib,0,0,0,1
+Streptomyces venezuelae rox,0,1,1,1
+FusF,0,0,1,1
+AAC(3)-VIIa,0,0,0,1
+EBR-5,0,0,0,1
+golS,1,0,1,0
+Mef(En2),1,1,1,1
+Limosilactobacillus reuteri cat-TC,0,0,0,0
+Erm(35),1,1,1,1
+APH(3')-Ia,1,1,1,1
+APH(3')-Ib,1,0,1,1
+linG,1,0,1,1
+FosA7.5,1,0,1,1
+fosA5,0,0,1,0
+tet(59),1,0,1,1
+FosXCC,1,1,1,1
+CMH-4,0,0,1,1
+AAC(6')-Iid,0,1,1,1
+cepA,0,0,1,1
+EstT,1,1,1,1
+AAC(6')-IIa,1,1,1,1
+AAC(6')-Iaj,1,0,0,0
+ANT(6)-Ia,1,1,1,1
+ANT(6)-Ib,0,0,1,1
+cmlA5,1,0,1,1
+dfrA10,0,0,1,0
+baeR,1,1,1,1
+dfrA12,1,1,1,1
+baeS,1,1,1,1
+dfrA14,1,0,1,1
+dfrA15,1,0,1,1
+dfrA16,1,1,1,1
+dfrA17,1,1,1,1
+dfrA19,1,0,0,1
+VEB-17,1,0,1,1
+sdrM,1,1,1,1
+RanA,1,0,0,1
+RanB,1,0,0,1
+aadA2,1,1,1,1
+CfxA6,0,0,1,1
+aadA5,1,1,1,1
+aadA7,0,0,1,1
+aadA9,1,1,1,1
+tet(Z),1,1,1,1
+tet(B),1,1,1,1
+dfrA1,1,1,1,1
+APH(2'')-IIIa,0,0,1,1
+AcrE,1,1,1,1
+tet(36),1,1,1,1
+tet(32),1,1,1,1
+fexA,1,1,1,1
+fexB,1,1,1,1
+Campylobacter jejuni gyrA conferring resistance to fluoroquinolones,1,0,1,1
+PmrF,1,1,1,1
+cfrA,1,1,1,1
+cfrC,0,1,1,1
+oqxA,0,0,1,1
+cfrE,1,1,1,1
+AcrS,1,1,1,1
+QnrD1,0,0,1,1
+Escherichia coli parE conferring resistance to fluoroquinolones,0,0,1,1
+CrcB,0,0,1,0
+sepA,0,1,1,1
+ramA,0,0,1,1
+ICR-Mo,1,0,0,0
+AAC(3)-IVa,1,1,1,1
+dfrD,0,1,1,1
+dfrE,0,0,1,1
+TRU-1,0,1,0,0
+dfrF,0,0,1,1
+APH(3')-IIIa,1,1,1,1
+dfrG,1,1,1,1
+Klebsiella pneumoniae OmpK37,0,0,1,1
+OXA-820,1,0,0,0
+FosA2,0,0,1,0
+dfrL,0,0,0,0
+FosA3,0,1,1,1
+Erm(51),1,1,1,1
+RbpA,0,1,1,1
+FosA8,0,1,1,1
+CcrA,0,0,1,1
+AAC(6')-Ie-APH(2'')-Ia bifunctional protein,1,1,1,1
+efrA,0,0,1,1
+ACT-56,0,0,1,0
+fusC,0,0,1,1
+fusD,1,0,1,1
+Escherichia coli mdfA,1,1,1,1
+vanRB,0,0,1,0
+vanRC,0,1,1,1
+vanRG,0,0,1,1
+tet(44),1,1,1,1
+tet(40),1,1,1,1
+vanRI,0,0,0,0
+Vibrio anguillarum chloramphenicol acetyltransferase,1,1,1,1
+AAC(6')-Ib',1,0,1,1
+APH(3')-IIa,0,0,1,1
+mecR1,0,0,1,1
+Erm(36),0,1,1,1
+AAC(6')-Ib7,1,1,1,1
+emrA,1,1,1,1
+AAC(6')-Ib8,1,0,1,1
+AAC(6')-Ib9,1,0,0,1
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,1,1,1,1
+CTX-M-55,1,0,1,1
+Rhodobacter sphaeroides ampC beta-lactamase,0,0,1,1
+Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin,0,1,1,0
+LptD,0,0,1,0
+emrK,1,1,1,1
+Campylobacter coli chloramphenicol acetyltransferase,1,1,1,1
+ACI-1,1,0,1,1
+emrR,1,1,1,1
+emrY,1,1,1,1
+ANT(3'')-IIa,1,1,1,1
+ANT(3'')-IIb,1,0,1,1
+aad(6),1,1,1,1
+APH(2'')-IIa,0,0,1,1
+tet(X5),1,1,1,1
+APH(3')-VIIa,0,0,1,0
+tet(X1),0,0,1,1
+Vibrio cholerae varG,0,0,1,1
+dfrA20,0,0,0,1
+MCR-1.1,1,0,1,1
+Acinetobacter baumannii AbaQ,1,0,0,1
+YojI,1,1,1,1
+Escherichia coli emrE,1,1,1,1
+dfrA27,1,1,1,1
+Erm(48),0,1,1,0
+tmrB,0,0,0,1
+23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A),0,1,1,1
+OXA-136,0,0,1,1
+LnuH,1,0,1,1
+tet(W),1,1,1,1
+tet(S),1,1,1,1
+tet(O),1,1,1,1
+tet(K),1,1,1,1
+LnuP,1,1,1,1
+tet(C),1,1,1,1
+tet(33),1,1,1,1
+tetB(P),1,1,1,1
+marA,1,1,1,1
+arr-2,1,1,1,1
+arr-3,1,1,1,1
+msr(I),0,1,0,1
+arr-8,0,0,0,1
+QnrA3,0,0,1,0
+AAC(6')-Ib-cr3,0,0,1,1
+AAC(6')-Ib-cr6,1,1,1,1
+Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin,1,1,1,1
+vanB,0,0,1,1
+vanC,1,1,1,1
+vanF,0,0,1,1
+vanG,1,1,1,1
+FosB3,0,1,1,1
+Erm(52),1,1,1,1
+Sed-1,0,0,0,0
+almE,0,0,1,1
+ugd,1,1,1,1
+almF,0,0,1,0
+almG,0,0,1,1
+OXA-1,0,1,1,1
+acrB,1,1,1,1
+tet(W/N/W),1,1,1,1
+acrD,1,1,1,1
+QnrVC5,1,0,1,1
+leuO,1,1,1,1
+cpxA,1,1,1,1
+norC,1,1,1,1
+sul1,1,1,1,1
+sul2,1,1,1,1
+sul3,0,0,1,1
+vanWB,0,0,1,1
+ADC-43,1,0,0,1
+sul4,0,0,0,1
+ykkC,0,0,0,1
+vanSB,0,0,1,0
+ykkD,0,0,0,1
+tet(O/W/32/O),1,1,1,1
+vanWG,0,1,1,1
+tet(45),1,1,1,1
+vanWI,0,0,1,1
+FosBx1,0,1,1,1
+TEM-1,1,0,1,1
+EC-14,1,1,1,1
+EC-15,1,1,1,1
+FosD,0,0,1,1
+PC1 beta-lactamase (blaZ),0,0,1,1
+DHA-1,0,0,0,1
+FosG,0,0,0,0
+Escherichia coli soxS with mutation conferring antibiotic resistance,1,1,1,1
+BRO-2,1,0,0,0
+FosK,0,0,0,1
+OXA-912,0,1,0,0
+eptA,1,1,1,1
+eptB,0,0,1,0
+Escherichia coli acrA,1,1,1,1
+mphA,0,0,1,1
+cfr(D),0,0,1,1
+mphC,0,0,1,1
+CTX-M-65,0,0,1,0
+mphE,1,0,1,1
+mphF,0,0,0,1
+OXA-334,1,0,0,1
+mphG,1,0,0,1
+mphK,0,0,0,1
+spd,0,0,0,1
+DfrB9,0,0,0,1
+mphO,0,1,1,1
+mdtA,1,1,1,1
+mdtB,1,1,1,1
+mdtC,0,0,1,0
+mdtE,1,1,1,1
+mdtF,1,1,1,1
+mdtG,1,1,1,1
+mdtH,1,1,1,1
+mdtM,1,1,1,1
+mdtN,1,1,1,1
+mdtO,1,1,1,1
+mdtP,1,1,1,1

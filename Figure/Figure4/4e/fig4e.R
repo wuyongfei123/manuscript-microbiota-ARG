@@ -10,7 +10,7 @@ arg_breed_ARG_sum <- read_csv("CC_ARG_breed.csv")
 # 获取每个品种内的Top5 ARG type丰度
 arg_breed_top5 <- arg_breed_ARG_sum %>%
   group_by(Breed) %>% 
-  mutate(Rank = rank(-Total_Abundance, ties.method = "first")) %>% # 按丰度降序排名
+  mutate(Rank = rank(-Total_Abundance, ties.method = "first")) %>% 
   filter(Rank <= 5) %>% 
   ungroup() %>%
   select(-Rank) 
@@ -37,17 +37,17 @@ breed_order <- c(
   "MAL", "CVD", "MSD", "PKD", "SRD", "LAD", "SXD"
 )
 
-# 定义 Species 的颜色映射
 custom_colors <- c(
-  "vanYG"  = "#b19ccb",
+  "lnuC" = "#e48fa7",  
+  "FosXCC" = "#efb4ad",
+  "Mef(En2)" = "#547295",
+  "APH(3')-IIIa" = "#dae8f8",
   "tet(O)" = "#c35171", 
-  "vanYB" = "#e48fa7",  
-  "lnuC" = "#efcdd6",  
-  "APH(3')-IIIa" = "#dae8f8", 
   "tet(W)" = "#aad5f8",  
   "tet(Q)" = "#5184b3",
   "Other" = "#cfcfcf" 
 )
+
 arg_breed_final <- arg_breed_final %>%
   mutate(Breed = factor(Breed, levels = breed_order)) %>% 
   group_by(Breed) %>% 
@@ -55,15 +55,15 @@ arg_breed_final <- arg_breed_final %>%
   ungroup() 
 
 
-desired_ARG_type_order <- c(
+desired_Best_Hit_ARO_order <- c(
   "Other",
-  "vanYG",
+  "FosXCC",
+  "lnuC",
   "tet(O)", 
-  "vanYB",  
-  "lnuC",  
-  "APH(3')-IIIa", 
+  "APH(3')-IIIa",
   "tet(W)",  
-  "tet(Q)"
+  "tet(Q)",
+  "Mef(En2)"
 )
 
 arg_breed_final$ARG_type <- factor(

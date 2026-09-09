@@ -1,0 +1,49 @@
+configfile: "configs/config.yaml"
+include: "rules/import_seq_data.smk"
+include: "rules/feature_table.smk"
+include: "rules/phylogenetic.smk"
+include: "rules/feature-classifier.smk"
+include: "rules/diversity.smk"
+include: "rules/picrust2.smk"
+include: "rules/fit_classifier.smk"
+
+print('*'*50,config.get('trim-paired',False))
+
+rule all:
+    input: 
+        # 训练分类器
+        "datas/gtdb/gtdb-220-SpeciesReps-338f-806r-classifier.qza",
+        # # 导入数据
+        "results/samples_raw_data.qza",
+        "results/samples_raw_data_fastq_summariz.qzv",
+        # "results/samples_trimmed_data.qza",
+        # "results/samples_trimmed_data_stats.qza",
+        # "results/samples_trimmed_data_fastq_summariz.qzv",
+        # # 过滤，去嵌合体，生成特征表
+        "results/feature_table/feature_table-denoising-stats-dada2.qzv",
+        "results/feature_table/rep-seqs-dada2.qza",
+        "results/feature_table/rep-seqs-dada2.fasta",
+        "results/feature_table/feature_table-dada2_summary.qzv",
+        # # 进化树
+        # 'results/phylogeny/rooted-tree.qza',
+        # # # 多样性
+        # "results/diversity/alpha_rarefaction.qzv",
+        # expand('results/diversity/alpha/{metric}.tsv', metric=config['calculate_alpha_diversity']),
+        # 'results/diversity/alpha_diversity.tsv',
+        # expand('results/diversity/beta/{metric}.tsv', metric=config['calculate_beta_diversity']),
+        # # PCOA
+        # expand('results/diversity/pcoa/{metric}_pcoa.qza', metric=['braycurtis']),
+        # expand('results/diversity/pcoa/{metric}_pcoa.qzv', metric=['braycurtis']),
+
+        # # 物种注释
+        # 'results/taxonomy/taxonomy.tsv',
+        # 'results/taxonomy/taxa-bar-plots.qzv',
+        # 'results/taxonomy/taxonomy.qzv',
+        # # 各种物种丰度表
+        # "results/feature_table/feature_table-dada2.tsv",
+        # "results/feature_table/feature_table-dada2_relative_frequency.tsv",
+        # expand("results/feature_table/specified/feature_table-dada2_{level}_relative_frequency.tsv", level=["phylum","class","order","family","genus","species"]),
+        # # # 功能注释
+        # "results/picrust2",
+
+

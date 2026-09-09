@@ -1,0 +1,5 @@
+#Figure 6F right		
+Type	Category	number
+I	Overdominance	8
+II	Overdominance	2
+III	Dominance	2

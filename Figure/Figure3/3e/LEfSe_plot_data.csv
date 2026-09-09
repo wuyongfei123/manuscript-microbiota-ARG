@@ -1,0 +1,25 @@
+Comparison,Taxa,Method,Group,LDA,P,Significance
+Feces - small_intestine - large_intestine - Stomach,qacEdelta1,LEfSe,Feces,3.848589867956149,3.347337461736644e-81,***
+Feces - small_intestine - large_intestine - Stomach,lnuB,LEfSe,Feces,3.8521183827447523,4.0797359483938144e-112,***
+Feces - small_intestine - large_intestine - Stomach,RanA,LEfSe,Stomach,3.862906132389271,1.924597500396898e-96,***
+Feces - small_intestine - large_intestine - Stomach,tet(X5),LEfSe,Stomach,3.864954023617514,6.147469041845032e-81,***
+Feces - small_intestine - large_intestine - Stomach,tet(44),LEfSe,large_intestine,3.8836559717348274,7.626074057647896e-89,***
+Feces - small_intestine - large_intestine - Stomach,tet(32),LEfSe,large_intestine,3.9390024620236894,5.083305894148279e-96,***
+Feces - small_intestine - large_intestine - Stomach,LnuP,LEfSe,Feces,3.9876954664657167,2.184712108941597e-65,***
+Feces - small_intestine - large_intestine - Stomach,adeF,LEfSe,Stomach,3.987897649825247,2.489502705787196e-69,***
+Feces - small_intestine - large_intestine - Stomach,sul2,LEfSe,Stomach,4.004182966655298,3.0319822900876876e-88,***
+Feces - small_intestine - large_intestine - Stomach,Mef(En2),LEfSe,large_intestine,4.037783074357626,2.3828232058143556e-115,***
+Feces - small_intestine - large_intestine - Stomach,Hpyl_rpoB_RIF,LEfSe,Stomach,4.124223504559614,4.328419605105445e-65,***
+Feces - small_intestine - large_intestine - Stomach,Abau_AmvA,LEfSe,Stomach,4.159839907867522,1.4843273061479412e-40,***
+Feces - small_intestine - large_intestine - Stomach,tet(O/W/32/O),LEfSe,Stomach,4.183042461735469,6.433267022992043e-50,***
+Feces - small_intestine - large_intestine - Stomach,APH(3')-IIIa,LEfSe,large_intestine,4.298817357352286,4.122778755258207e-94,***
+Feces - small_intestine - large_intestine - Stomach,Hinf_PBP3_BLA,LEfSe,Stomach,4.300531898526221,2.1069182376690243e-126,***
+Feces - small_intestine - large_intestine - Stomach,fexA,LEfSe,Stomach,4.308429199174662,1.6812914564963004e-35,***
+Feces - small_intestine - large_intestine - Stomach,tet(B),LEfSe,Stomach,4.3296013507079305,1.0613275049025869e-67,***
+Feces - small_intestine - large_intestine - Stomach,tet(M),LEfSe,Feces,4.402664843560459,2.0616274724878183e-67,***
+Feces - small_intestine - large_intestine - Stomach,lnuC,LEfSe,large_intestine,4.4954525937632175,8.321637146721319e-61,***
+Feces - small_intestine - large_intestine - Stomach,tetB(P),LEfSe,Feces,4.556793784903986,1.136315796583542e-53,***
+Feces - small_intestine - large_intestine - Stomach,tet(45),LEfSe,Stomach,4.587716873727077,3.616685507898631e-78,***
+Feces - small_intestine - large_intestine - Stomach,tet(O),LEfSe,Stomach,4.595117167092807,6.212473845183989e-10,***
+Feces - small_intestine - large_intestine - Stomach,tet(W),LEfSe,large_intestine,4.858971956540298,3.5348266584590983e-63,***
+Feces - small_intestine - large_intestine - Stomach,tet(Q),LEfSe,large_intestine,4.966107850437644,1.0795268402630653e-53,***

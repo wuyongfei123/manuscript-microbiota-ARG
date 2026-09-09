@@ -15,13 +15,13 @@ pcoa_points_filtered <- read_csv("D:/2025_1162_duck_args/文章/数据和代码/
 shape_mapping <- c(
   "SXD-ShiShi" = 18,         
   "YXP-ShiShi" = 1,        
-  "MWD-ShiShi" = 17,  #实心圆
-  "TWD-ShiShi" = 2,       #空心圆
-  "SPD-ShiShi" = 15,         #空心三角
-  "PTB-ShiShi" = 12,      #实心三角
-  "LSD-ShiShi" = 16,       #空心正方形
-  "ZSP-ShiShi" = 0,       #实心正方形
-  "JYP-ShiShi" = 25,       #实心正方形
+  "MWD-ShiShi" = 17,  
+  "TWD-ShiShi" = 2,      
+  "SPD-ShiShi" = 15,       
+  "PTB-ShiShi" = 12,      
+  "LSD-ShiShi" = 16,       
+  "ZSP-ShiShi" = 0,       
+  "JYP-ShiShi" = 25,      
   "JRD-ShiShi" = 11, 
   "LCW-ShiShi" = 13, 
   "CHP-ShiShi" = 10

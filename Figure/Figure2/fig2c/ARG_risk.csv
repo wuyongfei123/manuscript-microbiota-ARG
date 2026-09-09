@@ -1,0 +1,408 @@
+ARG_type,Risk_Level,Drug_Class
+tet(M),Risk I,tetracycline
+tet(Q),Risk I,tetracycline
+tet(45),Risk I,tetracycline
+fexA,Risk I,phenicol
+tet(O),Risk I,tetracycline
+lnuC,Risk I,lincosamide
+SAT-4,Risk I,nucleoside
+ErmB,Risk I,multidrug
+APH(3')-IIIa,Risk I,aminoglycoside
+qacEdelta1,Risk I,disinfecting agents and antiseptics
+sul2,Risk I,sulfonamide
+ErmA,Risk I,multidrug
+catA8,Risk I,phenicol
+Streptococcus suis chloramphenicol acetyltransferase,Risk I,phenicol
+TEM-1,Risk I,multidrug
+APH(3'')-Ib,Risk I,aminoglycoside
+sul1,Risk I,sulfonamide
+arr-3,Risk I,rifamycin
+nimJ,Risk I,nitroimidazole
+aad(6),Risk I,aminoglycoside
+tet(S),Risk I,tetracycline
+LnuP,Risk I,lincosamide
+lnuA,Risk I,lincosamide
+APH(3')-Ia,Risk I,aminoglycoside
+EstT,Risk I,multidrug
+fexB,Risk I,phenicol
+tet(A),Risk I,tetracycline
+FosXCC,Risk I,phosphonic acid
+poxtA,Risk I,multidrug
+AAC(6')-IIa,Risk I,aminoglycoside
+ErmF,Risk I,multidrug
+tet(X),Risk I,multidrug
+tet(O/W/32/O),Risk II,tetracycline
+APH(2'')-If,Risk II,aminoglycoside
+dfrA27,Risk II,diaminopyrimidine
+ANT(2'')-Ia,Risk II,aminoglycoside
+nimA,Risk II,nitroimidazole
+ErmT,Risk II,multidrug
+ErmX,Risk II,multidrug
+ErmG,Risk II,multidrug
+Erm(35),Risk II,multidrug
+AAC(6')-Ie-APH(2'')-Ia bifunctional protein,Risk II,aminoglycoside
+arr-2,Risk II,rifamycin
+ANT(4')-Ia,Risk II,aminoglycoside
+aadS,Risk II,aminoglycoside
+dfrA14,Risk II,diaminopyrimidine
+APH(6)-Id,Risk II,aminoglycoside
+Campylobacter coli chloramphenicol acetyltransferase,Risk II,phenicol
+tet(W),Risk II,tetracycline
+aadA2,Risk II,aminoglycoside
+dfrG,Risk II,diaminopyrimidine
+dfrA17,Risk II,diaminopyrimidine
+tet(44),Risk II,tetracycline
+tet(40),Risk II,tetracycline
+tet(K),Risk II,tetracycline
+catP,Risk II,phenicol
+OXA-10,Risk II,multidrug
+AAC(3)-IVa,Risk II,aminoglycoside
+vanYB,Risk II,glycopeptide
+aadA5,Risk II,aminoglycoside
+Vibrio anguillarum chloramphenicol acetyltransferase,Risk II,phenicol
+tet(32),Risk II,tetracycline
+dfrA12,Risk II,diaminopyrimidine
+qacL,Risk II,disinfecting agents and antiseptics
+cmlA5,Risk III,phenicol
+npmA,Risk III,aminoglycoside
+AAC(6')-Ib-cr6,Risk III,multidrug
+ANT(9)-Ia,Risk III,aminoglycoside
+ANT(6)-Ia,Risk III,aminoglycoside
+aadA16,Risk III,aminoglycoside
+catIII,Risk III,phenicol
+FosB3,Risk III,phosphonic acid
+ErmC,Risk III,multidrug
+dfrA1,Risk III,diaminopyrimidine
+catB3,Risk III,phenicol
+AAC(3)-IIc,Risk III,aminoglycoside
+FosBx1,Risk III,phosphonic acid
+APH(3')-IIa,Risk III,aminoglycoside
+QnrS1,Risk III,fluoroquinolone
+Mef(En2),Risk III,macrolide
+AAC(6')-Ib8,Risk III,aminoglycoside
+CTX-M-55,Risk III,cephalosporin
+lnuG,Risk III,lincosamide
+FosA8,Risk III,phosphonic acid
+vanYG,Risk III,glycopeptide
+cfrE,Risk III,multidrug
+tet(W/N/W),Risk III,tetracycline
+qacG,Risk III,disinfecting agents and antiseptics
+CARB-3,Risk III,penam
+OXA-1,Risk III,multidrug
+vatE,Risk III,multidrug
+tet(B),Risk III,tetracycline
+catQ,Risk III,phenicol
+qacJ,Risk III,disinfecting agents and antiseptics
+cfrA,Risk III,multidrug
+BLMT,Risk III,glycopeptide
+FosA2,Risk IV,phosphonic acid
+Staphylococcus intermedius chloramphenicol acetyltransferase,Risk IV,phenicol
+tet(C),Risk IV,tetracycline
+OXA-347,Risk IV,multidrug
+dfrF,Risk IV,diaminopyrimidine
+clcD,Risk IV,multidrug
+SAT-2,Risk IV,nucleoside
+AAC(6')-Ia,Risk IV,aminoglycoside
+linG,Risk IV,lincosamide
+nimH,Risk IV,nitroimidazole
+FosD,Risk IV,phosphonic acid
+dfrA15,Risk IV,diaminopyrimidine
+catB8,Risk IV,phenicol
+EreA,Risk IV,macrolide
+AAC(6')-Im,Risk IV,aminoglycoside
+spd,Risk IV,aminoglycoside
+aadA17,Risk IV,aminoglycoside
+AAC(6')-Ib9,Risk IV,aminoglycoside
+MCR-1.1,Risk IV,peptide
+vanXB,Risk IV,glycopeptide
+msrA,Risk IV,multidrug
+mphC,Risk IV,macrolide
+CfxA6,Risk IV,cephamycin
+vanHB,Risk IV,glycopeptide
+23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A),Risk IV,multidrug
+catB2,Risk IV,phenicol
+aadA7,Risk IV,aminoglycoside
+mecI,Risk IV,penam
+mecR1,Risk IV,penam
+lsaE,Risk IV,multidrug
+vanRB,Risk IV,glycopeptide
+vanB,Risk IV,glycopeptide
+vanSB,Risk IV,glycopeptide
+AAC(6')-Ib-cr3,Risk V,multidrug
+AAC(6')-Ii,Risk V,aminoglycoside
+AAC(6')-Iid,Risk V,aminoglycoside
+AAC(6')-Iy,Risk V,aminoglycoside
+ACI-1,Risk V,multidrug
+ACT-77,Risk V,multidrug
+ADC-43,Risk V,cephalosporin
+ANT(3'')-IIa,Risk V,aminoglycoside
+ANT(6)-Ib,Risk V,aminoglycoside
+APH(2'')-IIIa,Risk V,aminoglycoside
+APH(2'')-IIa,Risk V,aminoglycoside
+APH(2'')-Ie,Risk V,aminoglycoside
+APH(2'')-Ig,Risk V,aminoglycoside
+APH(3')-Ib,Risk V,aminoglycoside
+APH(3')-VIIa,Risk V,aminoglycoside
+APH(3')-VIa,Risk V,aminoglycoside
+APH(4)-Ia,Risk V,aminoglycoside
+Acinetobacter baumannii AbaQ,Risk V,fluoroquinolone
+AcrE,Risk V,multidrug
+AcrS,Risk V,multidrug
+ArnT,Risk V,peptide
+BRP(MBL),Risk V,glycopeptide
+Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin,Risk V,rifamycin
+CARB-4,Risk V,penam
+CARB-8,Risk V,penam
+CARB-9,Risk V,penam
+CDD-2,Risk V,carbapenem
+CMH-4,Risk V,cephalosporin
+CTX-M-65,Risk V,cephalosporin
+Campylobacter jejuni gyrA conferring resistance to fluoroquinolones,Risk V,fluoroquinolone
+CblA-1,Risk V,cephalosporin
+Clostridioides difficile gyrB conferring resistance to fluoroquinolones,Risk V,fluoroquinolone
+Clostridium perfringens mprF,Risk V,peptide
+CrcB,Risk V,aminoglycoside
+DHA-1,Risk V,multidrug
+DfrA37,Risk V,diaminopyrimidine
+DfrB9,Risk V,diaminopyrimidine
+EC-14,Risk V,cephalosporin
+EC-15,Risk V,cephalosporin
+EreD,Risk V,macrolide
+Erm(36),Risk V,multidrug
+Erm(42),Risk V,multidrug
+Erm(49),Risk V,multidrug
+Erm(51),Risk V,multidrug
+Erm(52),Risk V,multidrug
+ErmQ,Risk V,multidrug
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",Risk V,multidrug
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,Risk V,multidrug
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,Risk V,elfamycin
+Escherichia coli acrA,Risk V,multidrug
+Escherichia coli ampC beta-lactamase,Risk V,multidrug
+Escherichia coli emrE,Risk V,macrolide
+Escherichia coli mdfA,Risk V,multidrug
+Escherichia coli parE conferring resistance to fluoroquinolones,Risk V,fluoroquinolone
+Escherichia coli soxR with mutation conferring antibiotic resistance,Risk V,multidrug
+Escherichia coli soxS with mutation conferring antibiotic resistance,Risk V,multidrug
+FosA3,Risk V,phosphonic acid
+FosA7.5,Risk V,phosphonic acid
+H-NS,Risk V,multidrug
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,Risk V,multidrug
+Klebsiella pneumoniae KpnE,Risk V,multidrug
+Klebsiella pneumoniae KpnF,Risk V,multidrug
+Klebsiella pneumoniae KpnG,Risk V,multidrug
+Klebsiella pneumoniae KpnH,Risk V,multidrug
+Klebsiella pneumoniae OmpK37,Risk V,multidrug
+Limosilactobacillus reuteri cat-TC,Risk V,phenicol
+LlmA 23S ribosomal RNA methyltransferase,Risk V,lincosamide
+LnuH,Risk V,lincosamide
+LptD,Risk V,multidrug
+Morganella morganii gyrB conferring resistance to fluoroquinolones,Risk V,fluoroquinolone
+Mrx,Risk V,macrolide
+Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin,Risk V,aminoglycoside
+NDM-5,Risk V,multidrug
+OXA-136,Risk V,multidrug
+OXA-184,Risk V,multidrug
+OXA-21,Risk V,multidrug
+OXA-58,Risk V,multidrug
+OXA-820,Risk V,multidrug
+OmpA,Risk V,peptide
+PmrF,Risk V,peptide
+RanA,Risk V,aminoglycoside
+RanB,Risk V,aminoglycoside
+SHV-11,Risk V,multidrug
+TolC,Risk V,multidrug
+VEB-17,Risk V,multidrug
+Vibrio cholerae varG,Risk V,carbapenem
+YojI,Risk V,peptide
+aadA11,Risk V,aminoglycoside
+aadK,Risk V,aminoglycoside
+abeS,Risk V,multidrug
+acrB,Risk V,multidrug
+acrD,Risk V,aminoglycoside
+adeF,Risk V,multidrug
+adeL,Risk V,multidrug
+almE,Risk V,peptide
+almF,Risk V,peptide
+almG,Risk V,peptide
+aphA15,Risk V,aminoglycoside
+apmA,Risk V,aminoglycoside
+bacA,Risk V,peptide
+baeR,Risk V,multidrug
+baeS,Risk V,multidrug
+catA4,Risk V,phenicol
+catII from Escherichia coli K-12,Risk V,phenicol
+catS,Risk V,phenicol
+cepA,Risk V,cephalosporin
+cmeR,Risk V,multidrug
+cpxA,Risk V,multidrug
+dfrA19,Risk V,diaminopyrimidine
+dfrE,Risk V,diaminopyrimidine
+efmA,Risk V,multidrug
+efrA,Risk V,multidrug
+emrA,Risk V,fluoroquinolone
+emrK,Risk V,tetracycline
+emrR,Risk V,fluoroquinolone
+emrY,Risk V,tetracycline
+eptA,Risk V,peptide
+eptB,Risk V,peptide
+erm(45),Risk V,multidrug
+evgA,Risk V,multidrug
+evgS,Risk V,multidrug
+fosA5,Risk V,multidrug
+fusD,Risk V,fusidane
+gadX,Risk V,multidrug
+golS,Risk V,multidrug
+kdpE,Risk V,aminoglycoside
+leuO,Risk V,multidrug
+lnuB,Risk V,lincosamide
+lnuD,Risk V,lincosamide
+marA,Risk V,multidrug
+mdtA,Risk V,aminocoumarin
+mdtB,Risk V,aminocoumarin
+mdtC,Risk V,aminocoumarin
+mdtE,Risk V,multidrug
+mdtF,Risk V,multidrug
+mdtG,Risk V,phosphonic acid
+mdtH,Risk V,fluoroquinolone
+mdtM,Risk V,multidrug
+mdtN,Risk V,multidrug
+mdtO,Risk V,multidrug
+mdtP,Risk V,multidrug
+mecA,Risk V,penam
+mecB,Risk V,penam
+mefF,Risk V,macrolide
+mefH,Risk V,macrolide
+mphA,Risk V,macrolide
+mphE,Risk V,macrolide
+mphK,Risk V,macrolide
+msbA,Risk V,nitroimidazole
+msr(G),Risk V,multidrug
+nimB,Risk V,nitroimidazole
+nimD,Risk V,nitroimidazole
+nimE,Risk V,nitroimidazole
+nimF,Risk V,nitroimidazole
+nimG,Risk V,nitroimidazole
+nimI,Risk V,nitroimidazole
+norC,Risk V,multidrug
+oqxA,Risk V,multidrug
+patB,Risk V,fluoroquinolone
+ramA,Risk V,multidrug
+rsmA,Risk V,multidrug
+salC,Risk V,multidrug
+salD,Risk V,multidrug
+salE,Risk V,multidrug
+sdiA,Risk V,multidrug
+sdrM,Risk V,multidrug
+sepA,Risk V,disinfecting agents and antiseptics
+sul3,Risk V,sulfonamide
+sul4,Risk V,sulfonamide
+tet(36),Risk V,tetracycline
+tet(59),Risk V,tetracycline
+tet(D),Risk V,tetracycline
+tet(T),Risk V,tetracycline
+tet(X1),Risk V,tetracycline
+tet(X5),Risk V,tetracycline
+tet(Z),Risk V,tetracycline
+tetB(P),Risk V,tetracycline
+tmrB,Risk V,nucleoside
+ugd,Risk V,peptide
+vanC,Risk V,glycopeptide
+vanF,Risk V,glycopeptide
+vanG,Risk V,glycopeptide
+vanHF,Risk V,glycopeptide
+vanRC,Risk V,glycopeptide
+vanRG,Risk V,glycopeptide
+vanTC,Risk V,glycopeptide
+vanTG,Risk V,glycopeptide
+vanUG,Risk V,glycopeptide
+vanWB,Risk V,glycopeptide
+vanWG,Risk V,glycopeptide
+vanWI,Risk V,glycopeptide
+vanXF,Risk V,glycopeptide
+vanXYC,Risk V,glycopeptide
+vanXYG,Risk V,glycopeptide
+vanYA,Risk V,glycopeptide
+vanYF,Risk V,glycopeptide
+vanYM,Risk V,glycopeptide
+ykkC,Risk V,multidrug
+ykkD,Risk V,multidrug
+OXA-140,Risk V,multidrug
+aadA15,Risk V,aminoglycoside
+AAC(6')-Il,Risk V,aminoglycoside
+clbC,Risk V,multidrug
+QnrB6,Risk V,fluoroquinolone
+lnuE,Risk V,lincosamide
+lnuF,Risk V,lincosamide
+vanXA,Risk V,glycopeptide
+vanXI,Risk V,glycopeptide
+nimC,Risk V,nitroimidazole
+vanXO,Risk V,glycopeptide
+vanHO,Risk V,glycopeptide
+ErmY,Risk V,multidrug
+Erm(34),Risk V,multidrug
+emtA,Risk V,multidrug
+vanXYE,Risk V,glycopeptide
+Helicobacter pylori rpoB mutation conferring resistance to rifampicin,Risk V,multidrug
+tet(X3),Risk V,multidrug
+catB11,Risk V,phenicol
+cphA3,Risk V,carbapenem
+APH(6)-Ic,Risk V,aminoglycoside
+OXA-193,Risk V,multidrug
+dfrA6 from Proteus mirabilis,Risk V,diaminopyrimidine
+aadA27,Risk V,aminoglycoside
+rgt1438,Risk V,rifamycin
+RCP-1,Risk V,penam
+Neisseria gonorrhoeae gyrA conferring resistance to fluoroquinolones,Risk V,fluoroquinolone
+Corynebacterium striatum tetA,Risk V,multidrug
+HelR,Risk V,rifamycin
+rmtB,Risk V,aminoglycoside
+ANT(9)-Ib,Risk V,aminoglycoside
+tet(O/32/O),Risk V,tetracycline
+armA,Risk V,aminoglycoside
+CMY-59,Risk V,cephamycin
+Mycobacterium tuberculosis folC with mutation conferring resistance to para-aminosalicylic acid,Risk V,salicylic acid
+Acinetobacter baumannii AmvA,Risk V,multidrug
+ANT(4')-Ib,Risk V,aminoglycoside
+Streptomyces venezuelae rox,Risk V,rifamycin
+FusF,Risk V,fusidane
+AAC(3)-VIIa,Risk V,aminoglycoside
+EBR-5,Risk V,multidrug
+AAC(6')-Iaj,Risk V,aminoglycoside
+dfrA10,Risk V,diaminopyrimidine
+dfrA16,Risk V,diaminopyrimidine
+aadA9,Risk V,aminoglycoside
+cfrC,Risk V,multidrug
+QnrD1,Risk V,fluoroquinolone
+ICR-Mo,Risk V,peptide
+dfrD,Risk V,diaminopyrimidine
+TRU-1,Risk V,multidrug
+dfrL,Risk V,multidrug
+RbpA,Risk V,rifamycin
+CcrA,Risk V,carbapenem
+ACT-56,Risk V,multidrug
+fusC,Risk V,fusidane
+vanRI,Risk V,glycopeptide
+AAC(6')-Ib',Risk V,aminoglycoside
+AAC(6')-Ib7,Risk V,aminoglycoside
+Rhodobacter sphaeroides ampC beta-lactamase,Risk V,multidrug
+Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin,Risk V,phosphonic acid
+ANT(3'')-IIb,Risk V,aminoglycoside
+dfrA20,Risk V,diaminopyrimidine
+Erm(48),Risk V,multidrug
+tet(33),Risk V,tetracycline
+msr(I),Risk V,multidrug
+arr-8,Risk V,rifamycin
+QnrA3,Risk V,fluoroquinolone
+Sed-1,Risk V,multidrug
+QnrVC5,Risk V,fluoroquinolone
+PC1 beta-lactamase (blaZ),Risk V,penam
+FosG,Risk V,phosphonic acid
+BRO-2,Risk V,penam
+FosK,Risk V,phosphonic acid
+OXA-912,Risk V,multidrug
+cfr(D),Risk V,multidrug
+mphF,Risk V,macrolide
+OXA-334,Risk V,multidrug
+mphG,Risk V,macrolide
+mphO,Risk V,macrolide

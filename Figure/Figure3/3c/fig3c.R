@@ -27,7 +27,7 @@ letters <- multcompLetters(p_values_adj)$Letters
 letter_df <- data.frame(gut_locations = unique(gut_ARG_data $gut_locations), letter = letters)
 
 # 自定义x轴标签顺序
-gut_order <- c("Stomach","Foregut",  "Hindgut", "Feces")
+gut_order <- c("Stomach","small intestine",  "large intestine", "Feces")
 
 # 将Breed列转换为因子并设定顺序
 gut_ARG_data$gut_locations<- factor(gut_ARG_data$gut_locations, levels = gut_order)
@@ -64,20 +64,20 @@ p <- ggplot(gut_ARG_data, aes(x = gut_locations, y = total_abundance)) +
     size = 6
   ) +
   theme(
-    panel.background = element_blank(),  # 移除面板背景
-    panel.grid.major = element_blank(),  # 移除主要网格线
-    panel.grid.minor = element_blank(),  # 移除次要网格线
-    axis.line.x = element_line(color = "black", size = 1), # 保留横坐标轴线
-    axis.line.y = element_line(color = "black", size = 1), # 保留纵坐标轴线
-    plot.background = element_blank(),    # 移除绘图区背景
-    legend.position = "none",             # 移除图例
-    axis.text.x = element_text(size = 16, family = "Arial",face = "bold"),  # 调大 x 轴标签字体
-    axis.text.y = element_text(size = 16, family = "Arial",face = "bold"),  # 调大 y 轴标签字体
-    axis.title.x = element_text(size = 16, family = "Arial", face = "bold"), # 调大 x 轴标题字体
-    axis.title.y = element_text(size = 16, family = "Arial", face = "bold"), # 调大 y 轴标题字体
-    plot.title = element_text(size = 16, family = "Arial", face = "bold", hjust = 0.5) # 图标题居中并调大
+    panel.background = element_blank(), 
+    panel.grid.major = element_blank(),  
+    panel.grid.minor = element_blank(),  
+    axis.line.x = element_line(color = "black", size = 1), 
+    axis.line.y = element_line(color = "black", size = 1), 
+    plot.background = element_blank(),   
+    legend.position = "none",           
+    axis.text.x = element_text(size = 16, family = "Arial",face = "bold"),  
+    axis.text.y = element_text(size = 16, family = "Arial",face = "bold"),  
+    axis.title.x = element_text(size = 16, family = "Arial", face = "bold"), 
+    axis.title.y = element_text(size = 16, family = "Arial", face = "bold"), 
+    plot.title = element_text(size = 16, family = "Arial", face = "bold", hjust = 0.5) 
   )
 
-# 输出图形
+
 p
 

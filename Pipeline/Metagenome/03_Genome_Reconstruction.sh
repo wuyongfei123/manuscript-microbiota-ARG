@@ -9,9 +9,9 @@ mkdir -p 07_Binning/MAG_Fasta
 
 # ##############Part3 Binning: Contigs to MAGs###########################
 ## use several modules of metawrap pipeline
-parent_dir=/home/wbq/0427
+parent_dir=/home/0427
 
-# metawrap=/home/wbq/miniconda3/envs/metawrap/bin/metawrap
+# metawrap=/home/miniconda3/envs/metawrap/bin/metawrap
 
 dRep=${parent_dir}/08_dRep
 CleanData=${parent_dir}/01_CleanData
@@ -46,7 +46,7 @@ do
     fi
 
     # 进入环境
-    source /home/wbq/miniconda3/bin/activate metawrap
+    source /home/miniconda3/bin/activate metawrap
 
     #binning with two different algorithms with the Binning module
     metawrap binning -o INITIAL_BINNING -t 96 -a ${Contigs}/${SampleID}.fa --metabat2 --maxbin2 --universal ${CleanData}/${SampleID}_filter_host_1.fastq ${CleanData}/${SampleID}_filter_host_2.fastq
@@ -88,42 +88,42 @@ source /home/public/miniforge3/bin/activate drep
 ${dRep} dereplicate ${dRep99} -g ${MAGs}/*.fa -p 96 -d -comp 50 -con 10 -nc 0.25 -pa 0.9 -sa 0.99
 
 ${dRep} compare ${dRep95} -g ${MAGs}/*.fa -p 16 -nc 0.25 -pa 0.9 -sa 0.95 
-# dRep cluster /home/wbq/test/data/08_dRep/dRep/dRep95 -p 16 -nc 0.25 -pa 0.9 -sa 0.95 -g /home/wbq/test/data/03_Binning/MAG_Fasta/*.fa(有问题,没有cluster这个命令)
-# dRep compare /home/wbq/test/data/08_dRep/dRep/dRep95 -p 16 -nc 0.25 -pa 0.9 -sa 0.95 -g /home/wbq/test/data/03_Binning/MAG_Fasta/*.fa
+# dRep cluster /home/test/data/08_dRep/dRep/dRep95 -p 16 -nc 0.25 -pa 0.9 -sa 0.95 -g /home/test/data/03_Binning/MAG_Fasta/*.fa(有问题,没有cluster这个命令)
+# dRep compare /home/test/data/08_dRep/dRep/dRep95 -p 16 -nc 0.25 -pa 0.9 -sa 0.95 -g /home/test/data/03_Binning/MAG_Fasta/*.fa
 
 #############Part5 Taxonomic classification and phylogenetic analysis###########################
 phylophlan=~/bin/phylophlan.py
 gtdbtk=~/bin/gtdbtk
 genomes=./04_dRep/dRep/dRep99/dereplicated_genomes
-Taxonomy=/home/wbq/test/data/05_Taxonomy
+Taxonomy=/home/test/data/05_Taxonomy
 
 cd ${Taxonomy}
 mkdir gtdbtk phylophlan
 
 ##Taxonomic classification
 $gtdbtk classify_wf --cpus 16 --out_dir gtdbtk --genome_dir ../${genomes} --extension fa
-gtdbtk classify_wf --cpus 16 --out_dir gtdbtk --genome_dir /home/wbq/test/data/08_dRep/dRep/dRep99/dereplicated_genomes --extension fa --skip_ani_screen
+gtdbtk classify_wf --cpus 16 --out_dir gtdbtk --genome_dir /home/test/data/08_dRep/dRep/dRep99/dereplicated_genomes --extension fa --skip_ani_screen
 
 #Phylogenetic analysis
 # 配置文件
 bash /home/public/miniforge3/envs/phylophlan/bin/phylophlan_write_default_configs.sh
 
 $phylophlan -i ../${genomes} -d ${phylophlan} --diversity high -f ${cfg} --accurate -o ${OUTPUT} --nproc 8
-phylophlan -i /home/wbq/test/data/08_dRep/dRep/dRep99/dereplicated_genomes -d /home/public/database/Phylophlan/phylophlan_databases/phylophlan --diversity high --accurate -o phylophlan1 --nproc 8 -f supermatrix_aa.cfg --verbose --genome_extension .fa
+phylophlan -i /home/test/data/08_dRep/dRep/dRep99/dereplicated_genomes -d /home/public/database/Phylophlan/phylophlan_databases/phylophlan --diversity high --accurate -o phylophlan1 --nproc 8 -f supermatrix_aa.cfg --verbose --genome_extension .fa
 
 # 用这个标记了数据库文件夹位置的命令，注意databases_folder下只需要有phylophlan.tar和phylophlan.md5两个文件即可正确运行
-phylophlan -i /home/wbq/test/data/08_dRep/dRep/dRep99/dereplicated_genomes --databases_folder /home/public/database/Phylophlan/phylophlan_databases -d phylophlan --diversity high --accurate -o phylophlan2 --nproc 8 -f supermatrix_aa.cfg --verbose --genome_extension .fa
+phylophlan -i /home/test/data/08_dRep/dRep/dRep99/dereplicated_genomes --databases_folder /home/public/database/Phylophlan/phylophlan_databases -d phylophlan --diversity high --accurate -o phylophlan2 --nproc 8 -f supermatrix_aa.cfg --verbose --genome_extension .fa
               
 cd ../
 
 ##############Part6 Genome annotation###########################
 # genomes=./04_MAG_de-replication/dereplicated_genomes
-prokka_Result=/home/wbq/test/data/09_Genome_annotation/genomes_protein
+prokka_Result=/home/test/data/09_Genome_annotation/genomes_protein
 # mkdir 09_Genome_annotation/genomes_protein
 
 cd ${prokka_Result}
 
-for i in $(ls /home/wbq/test/data/08_dRep/dRep/dRep99/dereplicated_genomes/*.fa)
+for i in $(ls /home/test/data/08_dRep/dRep/dRep99/dereplicated_genomes/*.fa)
 do
 file=${i##*/}
 ID=${file%.*}
@@ -137,7 +137,7 @@ genomes=${parent_dir}/08_dRep/dRep99/dereplicated_genomes
 MAG_quant=${parent_dir}/10_MAG_quant
 
 #进入环境
-source /home/wbq/miniconda3/bin/activate metawrap
+source /home/miniconda3/bin/activate metawrap
 
 metawrap quant_bins -b ${genomes} -o ${MAG_quant} -a ${allContigs} ${CleanData}/*.fastq -t 16
 
