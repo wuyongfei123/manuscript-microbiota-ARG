@@ -1,10 +1,5 @@
-#各表型在topSNP(1:131829512)不同基因型之间的聚类热图
-phe.GT = read.delim('figS10a.tsv',header=T,check.names = F)
-phe = phe.GT[order(phe.GT$GA),]
-phe = phe[phe$GA!='./.',]
-rownames(phe) = phe$id
-phe = phe[,-c(1,2)]
-phe = as.data.frame(t(phe))
+###
+phe = read.delim('figS10a.tsv',header=T,row.names = 1,check.names = F)
 #分组
 group.col = read.delim('group.GT.txt',header=T)  #样本分组，基因型
 rownames(group.col) = group.col$id
